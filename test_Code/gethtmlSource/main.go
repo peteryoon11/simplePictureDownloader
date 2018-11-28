@@ -20,7 +20,9 @@ func main() {
 	url := "http://tour.golang.org/welcome/1"
 	//url := "https://kissme2145.tistory.com/1287"
 	fmt.Printf("HTML code of %s ...\n", url)
+	
 	resp, err := http.Get(url)
+	
 	// handle the error if there is one
 	if err != nil {
 		panic(err)

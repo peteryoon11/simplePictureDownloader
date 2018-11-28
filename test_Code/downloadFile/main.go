@@ -11,7 +11,7 @@ func main() {
 	//fileUrl := "https://golangcode.com/images/avatar.jpg"
 	fileUrl := "https://t1.daumcdn.net/cfile/tistory/99120B3F5ACC19DE0E"
 
-	err := DownloadFile("avatar2.jpg", fileUrl)
+	err := DownloadFile("./temp/avatar2.jpg", fileUrl)
 	if err != nil {
 		panic(err)
 	}
