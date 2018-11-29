@@ -77,7 +77,8 @@ func crawl(url string, ch chan string, chFinished chan bool) {
 func main() {
 	foundUrls := make(map[string]bool)
 	seedUrls := os.Args[1:]
-
+	fmt.Println(os.Args[1:])
+	fmt.Println(os.Args[2:])
 	// Channels
 	chUrls := make(chan string)
 	chFinished := make(chan bool)
