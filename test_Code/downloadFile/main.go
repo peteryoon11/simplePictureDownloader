@@ -9,9 +9,10 @@ import (
 func main() {
 
 	//fileUrl := "https://golangcode.com/images/avatar.jpg"
-	fileUrl := "https://t1.daumcdn.net/cfile/tistory/99120B3F5ACC19DE0E"
+	//fileUrl := "https://t1.daumcdn.net/cfile/tistory/99120B3F5ACC19DE0E"
+	fileUrl := "https://t1.daumcdn.net/cfile/tistory/994700375BFA409B2A" // gif
 
-	err := DownloadFile("./temp/avatar2.jpg", fileUrl)
+	err := DownloadFile("./temp/avatar3.gif", fileUrl)
 	if err != nil {
 		panic(err)
 	}
