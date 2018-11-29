@@ -22,8 +22,8 @@ func main() {
 
 
 	 */
-	improvGetWebSourceFunc()
-
+	//improvGetWebSourceFunc()
+	originGetFunc()
 }
 func improvGetWebSourceFunc() {
 
@@ -53,8 +53,9 @@ func improvGetWebSourceFunc() {
 
 }
 func originGetFunc() {
-	url := "http://tour.golang.org/welcome/1"
+	//url := "http://tour.golang.org/welcome/1"
 	//url := "https://kissme2145.tistory.com/1287"
+	url := "https://kissme2145.tistory.com/1418?category=634440"
 	fmt.Printf("HTML code of %s ...\n", url)
 
 	resp, err := http.Get(url)
