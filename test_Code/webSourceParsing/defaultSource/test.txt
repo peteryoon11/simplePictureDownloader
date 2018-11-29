@@ -1,0 +1,1585 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+<link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/blogs/style/menubar.css?_version_=6a869d93b70df284225c7448b949c304cf73ae32" /><!--[if lt IE 9]><script src="https://t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script><![endif]--><!--[if gte IE 9]>
+<!--><script src="https://t1.daumcdn.net/tistory_admin/lib/jquery/jquery-3.2.1.min.js"></script><!--<![endif]-->
+<script>var tjQuery = jQuery.noConflict(true);</script><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style><meta name="referrer" content="always"><link rel="icon" href="https://tistory2.daumcdn.net/tistory/763009/4319a245edf2445cbd0e27999a374c8c" /><link rel="apple-touch-icon" href="//i1.daumcdn.net/thumb/C180x180/?fname=https%3A%2F%2Ftistory4.daumcdn.net%2Ftistory%2F763009%2Fattach%2F6f60bac88d954ca09c85d84e8519e8d4">
+<link rel="apple-touch-icon" sizes="76x76" href="//i1.daumcdn.net/thumb/C76x76/?fname=https%3A%2F%2Ftistory4.daumcdn.net%2Ftistory%2F763009%2Fattach%2F6f60bac88d954ca09c85d84e8519e8d4">
+<link rel="apple-touch-icon" sizes="120x120" href="//i1.daumcdn.net/thumb/C120x120/?fname=https%3A%2F%2Ftistory4.daumcdn.net%2Ftistory%2F763009%2Fattach%2F6f60bac88d954ca09c85d84e8519e8d4">
+<link rel="apple-touch-icon" sizes="152x152" href="//i1.daumcdn.net/thumb/C152x152/?fname=https%3A%2F%2Ftistory4.daumcdn.net%2Ftistory%2F763009%2Fattach%2F6f60bac88d954ca09c85d84e8519e8d4"><meta name="description" content="해상도 1908 x 2560 1077 x 1446 2155 x 1466 (단체) 트둥이들 오보이(OhBoy!) 화보는 언제나 이쁘네요 :) 오늘 저녁이나 내일 배경으로 후딱 만들어야겠습니다. 참고로 방문자분들이 찾아보기 쉽게 본인 배경 카..">
+
+<!-- BEGIN OPENGRAPH -->
+<link rel="canonical" href="https://kissme2145.tistory.com/1418" /><meta property="og:type" content="article"><meta property="og:url" content="https://kissme2145.tistory.com/1418" ><meta property="og:site_name" content="아리따움 ; Kiss Me" ><meta property="og:title" content="트와이스 오보이 창간 9주년 기념 멤버별 표지 고화질 19장" ><meta name="by" content="Kiss Me ♥" ><meta property="og:description" content="해상도 1908 x 2560 1077 x 1446 2155 x 1466 (단체) 트둥이들 오보이(OhBoy!) 화보는 언제나 이쁘네요 :) 오늘 저녁이나 내일 배경으로 후딱 만들어야겠습니다. 참고로 방문자분들이 찾아보기 쉽게 본인 배경 카.." ><meta property="og:image" content="https://t1.daumcdn.net/cfile/tistory/991DC4345BE7E2B637" ><meta property="article:section" content="스타" >
+<!-- END OPENGRAPH -->
+
+
+
+<!-- BEGIN TWITTERCARD -->
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@TISTORY"><meta name="twitter:title" content="트와이스 오보이 창간 9주년 기념 멤버별 표지 고화질 19장" ><meta name="twitter:description" content="해상도 1908 x 2560 1077 x 1446 2155 x 1466 (단체) 트둥이들 오보이(OhBoy!) 화보는 언제나 이쁘네요 :) 오늘 저녁이나 내일 배경으로 후딱 만들어야겠습니다. 참고로 방문자분들이 찾아보기 쉽게 본인 배경 카.." ><meta property="twitter:image" content="https://t1.daumcdn.net/cfile/tistory/991DC4345BE7E2B637" >
+<!-- END TWITTERCARD -->
+
+
+
+<!-- BEGIN DAUMAPP -->
+<meta property="dg:plink" content="https://kissme2145.tistory.com/1418" ><meta name="plink" content="https://kissme2145.tistory.com/1418" ><meta name="title" content="트와이스 오보이 창간 9주년 기념 멤버별 표지 고화질 19장" ><meta name="article:media_name" content="아리따움 ; Kiss Me" ><meta property="article:mobile_url" content="https://kissme2145.tistory.com/m/1418" ><meta property="article:pc_url" content="https://kissme2145.tistory.com/1418" ><meta property="article:mobile_view_url" content="https://kissme2145.tistory.com/m/1418" ><meta property="article:pc_view_url" content="https://kissme2145.tistory.com/1418" ><meta property="article:talk_channel_view_url" content="https://kissme2145.tistory.com/m/1418" ><meta property="article:pc_service_home" content="https://www.tistory.com" ><meta property="article:mobile_service_home" content="https://www.tistory.com/m" ><meta property="article:txid" content="763009_1418" /><meta property="article:published_time" content="2018-11-11T17:08:33+09:00" ><meta property="og:regDate" content="20181111170833" ><meta property="article:modified_time" content="2018-11-11T17:08:33+09:00" >
+<!-- END DAUMAPP -->
+
+
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https:\/\/kissme2145.tistory.com\/1418"},"url":"https:\/\/kissme2145.tistory.com\/1418","headline":"\ud2b8\uc640\uc774\uc2a4 \uc624\ubcf4\uc774 \ucc3d\uac04 9\uc8fc\ub144 \uae30\ub150 \uba64\ubc84\ubcc4 \ud45c\uc9c0 \uace0\ud654\uc9c8 19\uc7a5","description":"\ud574\uc0c1\ub3c4 1908 x 2560 1077 x 1446 2155 x 1466 (\ub2e8\uccb4) \ud2b8\ub465\uc774\ub4e4 \uc624\ubcf4\uc774(OhBoy!) \ud654\ubcf4\ub294 \uc5b8\uc81c\ub098 \uc774\uc058\ub124\uc694 :) \uc624\ub298 \uc800\ub141\uc774\ub098 \ub0b4\uc77c \ubc30\uacbd\uc73c\ub85c \ud6c4\ub531 \ub9cc\ub4e4\uc5b4\uc57c\uaca0\uc2b5\ub2c8\ub2e4. \ucc38\uace0\ub85c \ubc29\ubb38\uc790\ubd84\ub4e4\uc774 \ucc3e\uc544\ubcf4\uae30 \uc27d\uac8c \ubcf8\uc778 \ubc30\uacbd \uce74..","author":{"@type":"Person","name":"Kiss Me \u2665"},"image":{"@type":"ImageObject","url":"https:\/\/t1.daumcdn.net\/cfile\/tistory\/991DC4345BE7E2B637","width":"800px","height":"800px"},"datePublished":"20181111T17:08:33+09:00","dateModified":"20181111T17:08:33+09:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https:\/\/t1.daumcdn.net\/tistory_admin\/static\/images\/openGraph\/opengraph.png","width":"800px","height":"800px"}}}</script>
+<!-- END STRUCTURED_DATA -->
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<title>트와이스 오보이 창간 9주년 기념 멤버별 표지 고화질 19장</title>
+	<link rel="alternate" type="application/rss+xml" title="아리따움 ; Kiss Me" href="https://kissme2145.tistory.com/rss" />
+
+	<link rel="stylesheet" href="https://tistory4.daumcdn.net/tistory/763009/skin/style.css?_T_=1541916923">
+	<link rel="stylesheet" href="https://tistory4.daumcdn.net/tistory/763009/skin/images/font.css">
+
+	<!--[if lt IE 9]>
+    <script src="http://t1.daumcdn.net/tistory_admin/lib/jquery-1.11.3.min.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+	<script src="https://t1.daumcdn.net/tistory_admin/lib/jquery-2.1.4.min.js"></script>
+	<!--<![endif]-->
+<!--앵커 오버레이 광고-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2901096480991813",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+<!--앵커 오버레이 광고-->
+<!-- AMP 자동광고 -->
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+<!-- AMP 자동광고 -->
+<meta name="naver-site-verification" content="82d1c6ca6d825f901787673b15623f86262a16c7"/>
+<meta name="google-site-verification" content="VPp1o1p_FBqP0ifuaQnXcBkjte0VD2lpY1BpLbllA6w" />
+<!-- AMP 자동광고 -->
+<amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-2901096480991813">
+</amp-auto-ads>
+<!-- AMP 자동광고 -->	
+<!-- 불펌 방지 스크립트 -->
+<!--<script type="text/javascript">function event_right(e){if(event.button==2||event.button==3)alert("Tistory 알림 : 포스트 글내용 복사는 차단되어 있습니다");}
+document.onmousedown=event_right;function event_drag(){alert("Tistory 알림 : 포스트 글내용 복사는 차단되어 있습니다");}
+document.ondrag=event_drag;</script>-->
+<!-- 불펌 방지 스크립트 -->
+
+
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/blogs/plugins/TistoryProfileLayer/style.css?_version_=6a869d93b70df284225c7448b949c304cf73ae32" />
+<script type="text/javascript" src="https://t1.daumcdn.net/tistory_admin/blogs/plugins/TistoryProfileLayer/profile.js?_version_=6a869d93b70df284225c7448b949c304cf73ae32"></script>
+<script type="text/javascript">
+        window.TistoryBlog = {
+            url: "https://kissme2145.tistory.com",
+            tistoryUrl: "https://kissme2145.tistory.com",
+			manageUrl: 'https://kissme2145.tistory.com/manage'
+        };
+        var servicePath = "";
+        var blogURL = "";
+    </script>
+
+	<script> (function() { window.orgjQuery = window.jQuery; window.jQuery = tjQuery })()</script>
+    <script src="https://t1.daumcdn.net/section/uoclike/news/uoclike.min.js"></script>
+	<script> (function() { window.jQuery = window.orgjQuery; delete window.orgjQuery })()</script>
+    <script>
+		(function($) {
+			$.fn.extend({
+				size: function () {
+					return this.length
+				}
+			});
+			$.fn.UOCLike.defaults.updateServiceCategory = true;
+					})(tjQuery)
+    </script>
+        <script type="text/javascript" src="https://t1.daumcdn.net/tistory_admin/blogs/script/_/base.js?_version_=6a869d93b70df284225c7448b949c304cf73ae32"></script>
+        <link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/blogs/style/dialog.css?_version_=6a869d93b70df284225c7448b949c304cf73ae32"/>
+            <link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/blogs/style/postBtn.css?_version_=6a869d93b70df284225c7448b949c304cf73ae32"/>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script></head>
+
+	
+
+	
+	
+	
+<body id="tt-body-page">
+<script type="text/javascript">
+	(function() {
+		if (!window.T) {
+			window.T = {}
+		}
+		window.T.config = {"TOP_SSL_URL":"https:\/\/www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"\/1422?category=634440","NEXT_PAGE":"\/1417?category=634440","BLOG":{"isDormancy":false,"title":"\uc544\ub9ac\ub530\uc6c0 ; Kiss Me"},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https:\/\/www.tistory.com\/auth\/login\/?redirectUrl=http%3A%2F%2Fkissme2145.tistory.com%2F1418%3Fcategory%3D634440","DEFAULT_URL":"https:\/\/kissme2145.tistory.com","USER":{"name":null,"homepage":null}};
+	})();
+</script>
+
+<script type="text/javascript" src="https://t1.daumcdn.net/tistory_admin/blogs/script/blog/common.js?_version_=6a869d93b70df284225c7448b949c304cf73ae32"></script>
+<div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+	<div id="dkIndex">
+		<a href="#dkBody">본문 바로가기</a>
+		<a href="#dkGnb">메뉴 바로가기</a>
+	</div>
+
+	<div id="dkWrap" class="wrap_skin ">
+		<div id="dkHead" role="banner" class="area_head ">
+			<h1 class="screen_out">아리따움 ; Kiss Me</h1>
+			<div class="area_profile ">
+				<a class="link_profile" href="/"><img src="https://tistory4.daumcdn.net/tistory/763009/attach/6f60bac88d954ca09c85d84e8519e8d4" width="50" height="50" class="img_profile" alt="프로필사진"></a>
+				<div class="info_profile">
+					<button type="button" class="btn_name">아리따움 ; Kiss Me
+						<span class="ico_skin ico_name"></span>
+					</button>
+					<ul class="list_name">
+						<li><a href="https://kissme2145.tistory.com/manage/entry/post" class="link_name">글쓰기</a></li>
+						<li><a href="https://kissme2145.tistory.com/manage" class="link_name">관리</a></li>
+						<li class="box_division"><a href="/tag" class="link_name">태그</a></li>
+						<li><a href="/guestbook" class="link_name">방명록</a></li>
+						<!--<li><a href="/notice/16" class="link_name">공지사항</a></li>-->
+						<li><a href="https://kissme2145.tistory.com/rss" class="link_name">RSS</a></li>
+					</ul>
+					<p class="txt_condition">Kiss Me ♥</p><!--Kiss Me ♥-->
+				</div>
+			</div>
+
+			<button type="button" class="btn_menu">
+				<span class="ico_skin ico_menu">카테고리 메뉴열기</span>
+			</button>
+		</div>
+
+		<div class="dimmed_layer"></div>
+
+		<button type="button" class="btn_close">
+			<span class="ico_skin ico_close">닫기</span>
+		</button>
+
+		<div class="area_menu">
+			
+				<div class="area_search">
+					<button type="button" class="btn_search">
+						<span class="ico_skin ico_search">검색하기</span>
+					</button>
+					<form action="#" method="get" class="frm_search" onsubmit="try{window.location.href='/search/'+looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value='';return false;}catch(e){}">
+						<fieldset>
+							<legend class="screen_out">검색하기 폼</legend>
+							<label for="tfSearch" class="ico_skin lab_search">검색하기</label>
+							<input type="text" name="search" value="" class="tf_search">
+						</fieldset>
+					</form>
+				</div>
+			
+
+			<div role="navigation" class="area_navi">
+				<button type="button" class="btn_cate">CATEGORY <span class="ico_skin ico_cate"></span></button>
+
+				<div class="list_cate">
+					<ul class="menu_profile">
+						
+			
+						
+						<li><a href="/">HOME</a></li>
+					  <li><a href="https://kissmehd.tistory.com"  target="_blank"><font color=#3DB39E >스타★ 고화질 화보 Blog</font></a></li>
+            <li><a href="https://www.youtube.com/kissme2145"  target="_blank"><font color=#e9999c>아리따움 ; 유튜브 채널</font></a></li>
+				
+<!--<center>				
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<!-- [화보] 직사각형 광고 300 250 -->
+<!--<ins class="adsbygoogle"
+     style="display:inline-block;width:280px;height:233px"
+     data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="8483134766"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>		
+</center>-->
+<!-- 카테고리 상단 광고 -->							
+					
+					</ul>
+					<ul class="tt_category">
+	<li class="">
+		<a class="link_tit" href="/category">
+			아리따움 ; 모든 글 보기							<span class="c_cnt">(689)</span>
+			
+							<img src="https://t1.daumcdn.net/tistory_admin/blogs/image/category/new_ico_1.gif?_version_=6a869d93b70df284225c7448b949c304cf73ae32" alt="N" style='vertical-align:middle;padding-left:2px;' />
+					</a>
+
+				<ul class="category_list">
+							<li class="">
+					<a class="link_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4">
+						폰 배경화면													<span class="c_cnt">(347)</span>
+						
+													<img src="https://t1.daumcdn.net/tistory_admin/blogs/image/category/new_ico_1.gif?_version_=6a869d93b70df284225c7448b949c304cf73ae32" alt="N" style='vertical-align:middle;padding-left:2px;' />
+											</a>
+
+										<ul class="sub_category_list">
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%88%98%EC%A7%80%20%EB%B0%B0%EA%B2%BD">
+									수지 배경
+																			<span class="c_cnt">(11)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%ED%83%9C%EC%97%B0%20%EB%B0%B0%EA%B2%BD">
+									태연 배경
+																			<span class="c_cnt">(7)</span>
+									
+																			<img src="https://t1.daumcdn.net/tistory_admin/blogs/image/category/new_ico_1.gif?_version_=6a869d93b70df284225c7448b949c304cf73ae32" alt="N" style='vertical-align:middle;padding-left:2px;' />
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%84%A0%EB%AF%B8%20%EB%B0%B0%EA%B2%BD">
+									선미 배경
+																			<span class="c_cnt">(6)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%95%84%EC%9D%B4%EC%9C%A0%20%EB%B0%B0%EA%B2%BD">
+									아이유 배경
+																			<span class="c_cnt">(26)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EB%A7%88%EB%A7%88%EB%AC%B4%20%EB%B0%B0%EA%B2%BD">
+									마마무 배경
+																			<span class="c_cnt">(6)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%20%EB%B0%B0%EA%B2%BD">
+									레드벨벳 배경
+																			<span class="c_cnt">(41)</span>
+									
+																			<img src="https://t1.daumcdn.net/tistory_admin/blogs/image/category/new_ico_1.gif?_version_=6a869d93b70df284225c7448b949c304cf73ae32" alt="N" style='vertical-align:middle;padding-left:2px;' />
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4%20%EB%B0%B0%EA%B2%BD">
+									트와이스 배경
+																			<span class="c_cnt">(71)</span>
+									
+																			<img src="https://t1.daumcdn.net/tistory_admin/blogs/image/category/new_ico_1.gif?_version_=6a869d93b70df284225c7448b949c304cf73ae32" alt="N" style='vertical-align:middle;padding-left:2px;' />
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EB%B8%94%EB%9E%99%ED%95%91%ED%81%AC%20%20%EB%B0%B0%EA%B2%BD">
+									블랙핑크  배경
+																			<span class="c_cnt">(11)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%97%90%EC%9D%B4%ED%95%91%ED%81%AC%20%EB%B0%B0%EA%B2%BD">
+									에이핑크 배경
+																			<span class="c_cnt">(10)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%97%AC%EC%9E%90%EC%B9%9C%EA%B5%AC%20%EB%B0%B0%EA%B2%BD">
+									여자친구 배경
+																			<span class="c_cnt">(9)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88%20%EB%B0%B0%EA%B2%BD">
+									러블리즈 배경
+																			<span class="c_cnt">(10)</span>
+									
+																			<img src="https://t1.daumcdn.net/tistory_admin/blogs/image/category/new_ico_1.gif?_version_=6a869d93b70df284225c7448b949c304cf73ae32" alt="N" style='vertical-align:middle;padding-left:2px;' />
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%9A%B0%EC%A3%BC%EC%86%8C%EB%85%80%20%EB%B0%B0%EA%B2%BD">
+									우주소녀 배경
+																			<span class="c_cnt">(7)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%98%A4%EB%A7%88%EC%9D%B4%EA%B1%B8%20%EB%B0%B0%EA%B2%BD">
+									오마이걸 배경
+																			<span class="c_cnt">(5)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%97%AC%EC%9E%90%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%B0%B0%EA%B2%BD">
+									여자 아이돌 배경
+																			<span class="c_cnt">(45)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%20%EB%B0%B0%EA%B2%BD">
+									방탄소년단 배경
+																			<span class="c_cnt">(4)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EB%82%A8%EC%9E%90%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%B0%B0%EA%B2%BD">
+									남자 아이돌 배경
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%97%AC%EC%9E%90%20%EC%97%B0%EC%98%88%EC%9D%B8%20%EB%B0%B0%EA%B2%BD">
+									여자 연예인 배경
+																			<span class="c_cnt">(29)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EB%82%A8%EC%9E%90%20%EC%97%B0%EC%98%88%EC%9D%B8%20%EB%B0%B0%EA%B2%BD">
+									남자 연예인 배경
+																			<span class="c_cnt">(13)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EA%B8%B0%ED%83%80%20%EB%B0%B0%EA%B2%BD">
+									기타 배경
+																			<span class="c_cnt">(15)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%B9%B4%EC%B9%B4%EC%98%A4%20%ED%94%84%EB%A0%8C%EC%A6%88%20%EB%B0%B0%EA%B2%BD">
+									카카오 프렌즈 배경
+																			<span class="c_cnt">(7)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EC%95%84%EC%9D%B4%ED%8F%B0X%20%EB%B0%B0%EA%B2%BD">
+									아이폰X 배경
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%EB%85%B8%ED%8A%B88%2C%20S8%2C%20S9%20%EB%B0%B0%EA%B2%BD">
+									노트8, S8, S9 배경
+																			<span class="c_cnt">(11)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88">
+						T전화 4.0 테마													<span class="c_cnt">(149)</span>
+						
+											</a>
+
+										<ul class="sub_category_list">
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EC%88%98%EC%A7%80%20%ED%85%8C%EB%A7%88">
+									수지 테마
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%ED%83%9C%EC%97%B0%20%ED%85%8C%EB%A7%88">
+									태연 테마
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EC%95%84%EC%9D%B4%EC%9C%A0%20%ED%85%8C%EB%A7%88">
+									아이유 테마
+																			<span class="c_cnt">(11)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/AOA%20%ED%85%8C%EB%A7%88">
+									AOA 테마
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EA%B9%80%EC%86%8C%ED%98%9C%20%ED%85%8C%EB%A7%88">
+									김소혜 테마
+																			<span class="c_cnt">(4)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EB%A7%88%EB%A7%88%EB%AC%B4%20%ED%85%8C%EB%A7%88">
+									마마무 테마
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%20%ED%85%8C%EB%A7%88">
+									레드벨벳 테마
+																			<span class="c_cnt">(16)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4%20%ED%85%8C%EB%A7%88">
+									트와이스 테마
+																			<span class="c_cnt">(27)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EB%B8%94%EB%9E%99%ED%95%91%ED%81%AC%20%ED%85%8C%EB%A7%88">
+									블랙핑크 테마
+																			<span class="c_cnt">(5)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EC%97%AC%EC%9E%90%EC%B9%9C%EA%B5%AC%20%ED%85%8C%EB%A7%88">
+									여자친구 테마
+																			<span class="c_cnt">(10)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88%20%ED%85%8C%EB%A7%88">
+									러블리즈 테마
+																			<span class="c_cnt">(7)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EC%97%90%EC%9D%B4%ED%95%91%ED%81%AC%20%ED%85%8C%EB%A7%88">
+									에이핑크 테마
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EC%98%A4%EB%A7%88%EC%9D%B4%EA%B1%B8%20%ED%85%8C%EB%A7%88">
+									오마이걸 테마
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%20%ED%85%8C%EB%A7%88">
+									방탄소년단 테마
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EC%97%AC%EC%9E%90%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%ED%85%8C%EB%A7%88">
+									여자 아이돌 테마
+																			<span class="c_cnt">(21)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EB%82%A8%EC%9E%90%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%ED%85%8C%EB%A7%88">
+									남자 아이돌 테마
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EC%97%AC%EC%9E%90%20%EC%97%B0%EC%98%88%EC%9D%B8%20%ED%85%8C%EB%A7%88">
+									여자 연예인 테마
+																			<span class="c_cnt">(14)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EB%82%A8%EC%9E%90%20%EC%97%B0%EC%98%88%EC%9D%B8%20%ED%85%8C%EB%A7%88">
+									남자 연예인 테마
+																			<span class="c_cnt">(6)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/T%EC%A0%84%ED%99%94%204.0%20%ED%85%8C%EB%A7%88/%EA%B8%B0%ED%83%80%20%ED%85%8C%EB%A7%88">
+									기타 테마
+																			<span class="c_cnt">(5)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/%EC%8A%A4%ED%83%80%20%ED%99%94%EB%B3%B4">
+						스타 화보													<span class="c_cnt">(32)</span>
+						
+											</a>
+
+										<ul class="sub_category_list">
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%8A%A4%ED%83%80%20%ED%99%94%EB%B3%B4/%EC%97%AC%EC%9E%90%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%ED%99%94%EB%B3%B4">
+									여자 아이돌 화보
+																			<span class="c_cnt">(20)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%8A%A4%ED%83%80%20%ED%99%94%EB%B3%B4/%EC%97%AC%EC%9E%90%20%EC%97%B0%EC%98%88%EC%9D%B8%20%ED%99%94%EB%B3%B4">
+									여자 연예인 화보
+																			<span class="c_cnt">(12)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/%EC%A0%95%EB%B3%B4%20%26%20Tip">
+						정보 &amp; Tip													<span class="c_cnt">(72)</span>
+						
+											</a>
+
+										<ul class="sub_category_list">
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%A0%95%EB%B3%B4%20%26%20Tip/%EC%A0%95%EB%B3%B4">
+									정보
+																			<span class="c_cnt">(10)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%A0%95%EB%B3%B4%20%26%20Tip/%EB%B8%94%EB%A1%9C%EA%B7%B8">
+									블로그
+																			<span class="c_cnt">(15)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%A0%95%EB%B3%B4%20%26%20Tip/%ED%8F%AC%ED%86%A0%EC%83%B5">
+									포토샵
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%A0%95%EB%B3%B4%20%26%20Tip/%EA%B1%B4%EA%B0%95%EC%83%81%EC%8B%9D">
+									건강상식
+																			<span class="c_cnt">(5)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%A0%95%EB%B3%B4%20%26%20Tip/%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0">
+									스마트폰
+																			<span class="c_cnt">(10)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%A0%95%EB%B3%B4%20%26%20Tip/%EB%AC%B4%EB%A3%8C%ED%8F%B0%ED%8A%B8">
+									무료폰트
+																			<span class="c_cnt">(20)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%A0%95%EB%B3%B4%20%26%20Tip/PPT%20%EA%B4%80%EB%A0%A8%20%EC%B0%B8%EA%B3%A0">
+									PPT 관련 참고
+																			<span class="c_cnt">(10)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/%EB%81%84%EC%A0%81%EB%81%84%EC%A0%81">
+						끄적끄적													<span class="c_cnt">(34)</span>
+						
+											</a>
+
+										<ul class="sub_category_list">
+													<li class="">
+								<a class="link_sub_item" href="/category/%EB%81%84%EC%A0%81%EB%81%84%EC%A0%81/T%EC%A0%84%ED%99%94%20%ED%85%8C%EB%A7%88%20%EC%9D%B4%EC%95%BC%EA%B8%B0%20">
+									T전화 테마 이야기
+																			<span class="c_cnt">(14)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EB%81%84%EC%A0%81%EB%81%84%EC%A0%81/%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EC%9D%B4%EC%95%BC%EA%B8%B0">
+									블로그 이야기
+																			<span class="c_cnt">(18)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EB%81%84%EC%A0%81%EB%81%84%EC%A0%81/%EC%B4%88%EB%8C%80%EC%9E%A5">
+									초대장
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EB%81%84%EC%A0%81%EB%81%84%EC%A0%81/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EA%B0%84%E2%98%85">
+									개인공간★
+																			<span class="c_cnt">(0)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/%EC%95%84%EC%9D%B4%EC%9C%A0">
+						아이유													<span class="c_cnt">(7)</span>
+						
+											</a>
+
+										<ul class="sub_category_list">
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%95%84%EC%9D%B4%EC%9C%A0/%EC%95%84%EC%9D%B4%EC%9C%A0%20%EA%B7%BC%ED%99%A9">
+									아이유 근황
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%95%84%EC%9D%B4%EC%9C%A0/%EC%95%84%EC%9D%B4%EC%9C%A0%20%EC%98%88%EB%8A%A5">
+									아이유 예능
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%95%84%EC%9D%B4%EC%9C%A0/%EC%95%84%EC%9D%B4%EC%9C%A0%20%EB%85%B8%EB%9E%98">
+									아이유 노래
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="/category/%EC%95%84%EC%9D%B4%EC%9C%A0/%EC%95%84%EC%9D%B4%EC%9C%A0%20%EC%98%88%EC%A0%84%EC%9E%90%EB%A3%8C%20670%EA%B0%9C">
+									아이유 예전자료 670개
+																			<span class="c_cnt">(0)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				</li>
+							<li class="">
+					<a class="link_item" href="/category/T%EC%A0%84%ED%99%94%20%EA%B5%AC%EB%B2%84%EC%A0%84%20%ED%85%8C%EB%A7%88">
+						T전화 구버전 테마													<span class="c_cnt">(48)</span>
+						
+											</a>
+
+					
+				</li>
+					</ul>
+			</li>
+</ul>
+
+				
+					<ul class="menu_profile">
+						<li><a href="/897">나만의 테마 만드는 방법</a></li>
+						<li><a href="/775">구버전 테마 관련</a></li>
+						<li><a href="/guestbook">방명록</a></li>
+						<li><a href="/notice/933">fckissme@gmail.com</a></li>
+
+<!-- 카테고리 하단 광고 -->
+<!--<center>				
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<!-- 사이드바 300 600 -->
+<!--<ins class="adsbygoogle"
+     style="display:inline-block;width:280px;height:560px"
+     data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="1548710653"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>				
+</center>-->	
+<!-- 카테고리 하단 광고 -->					
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<hr class="hide">
+
+		
+
+		<div id="dkContent" class="cont_skin" role="main">
+			<div id="cMain">
+				<div class="masonry_container">
+				
+
+				
+
+				
+<!--데이블 메타 -->
+<meta property="dable:item_id" content="1418"> 
+<meta property="article:section" content="폰 배경화면/트와이스 배경">
+				<!--데이블 메타 -->
+					<div id="mArticle" class="article_skin">
+						
+
+						
+							<div class="skin_view">
+							<script>$('div.masonry_container').removeClass('masonry_container');</script>
+								<h2 id="dkBody" class="screen_out">티스토리 뷰</h2>
+								<div class="area_title">
+									<strong class="tit_category"><a href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4%20%EB%B0%B0%EA%B2%BD">폰 배경화면/트와이스 배경</a></strong>
+									<h3 class="tit_post"><a href="/1418">트와이스 오보이 창간 9주년 기념 멤버별 표지 고화질 19장</a></h3>
+									<span class="txt_detail my_post">Kiss Me ♥
+										<span class="txt_bar"></span><script type="text/javascript">
+var TDate    = '2018.11.11 17:08';    
+    YYYY= TDate.substr(0,4);
+    MMDD= TDate.substr(5,5);
+    document.write(YYYY+". "+MMDD); 
+</script>
+										
+									</span>
+								</div>
+								<div class="area_view">
+									<div class="tt_article_useless_p_margin"><div class="tt_adsense_top" style="margin-bottom:30px">
+<center><span style="color: rgb(241, 95, 95); font-size: 11.5pt;"><b>이미지가 많아 로딩이 다소 걸릴 수 있습니다</b></span></center>
+<br>
+<center>
+<style>
+.kissmesang001 { width:100%; height: 280px; }
+@media(min-width: 768px) { .kissmesang001 { width: 100%; height: 211px; } }
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle kissmesang001"
+     style="display:block"
+     data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="4292804435"
+     
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+<br>
+<center>
+<style>
+.kissmesang002 { width:100%; height: 280px; }
+@media(min-width: 768px) { .kissmesang002 { width: 100%; height: 90px; } }
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle kissmesang002"
+     style="display:block"
+     data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="1990138360"
+     
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+</div><p>해상도</p><p>1908 x 2560</p><p>1077 x 1446</p><p>2155 x 1466 (단체)</p><p><br /></p><p>트둥이들 오보이(OhBoy!) 화보는 언제나 이쁘네요 :) 오늘 저녁이나 내일 배경으로 후딱 만들어야겠습니다.</p><p><br /></p><p>참고로 방문자분들이 찾아보기 쉽게 <span style="color: rgb(61, 179, 158);">본인 배경 카테고리가 있는 연예인들은 배경 카테고리에 고화질 사진도 같이</span> 올립니다.</p><p><br /></p><p><span style="color: rgb(241, 95, 95);">모바일 또는 PC에서 저장하실 때 이미지를 클릭하여 원본 해상도로 저장하세요. :)</span></p><p><br /></p><p style="text-align: center;">지효<br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99C4233C5BE7E1FE05" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99C4233C5BE7E1FE05?original')" width="820" height="1100" filename="지효2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/9975683C5BE7E1FE2D" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/9975683C5BE7E1FE2D?original')" width="820" height="1101" filename="지효.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;">사나</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99D62C3C5BE7E1FF04" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99D62C3C5BE7E1FF04?original')" width="820" height="1100" filename="사나2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99C6B73C5BE7E20005" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99C6B73C5BE7E20005?original')" width="820" height="1101" filename="사나2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;">정연</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/9989483C5BE7E20108" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/9989483C5BE7E20108?original')" width="820" height="1100" filename="정연2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/9937693C5BE7E2010B" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/9937693C5BE7E2010B?original')" width="820" height="1101" filename="정연.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;">쯔위</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99C6CB3C5BE7E20205" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99C6CB3C5BE7E20205?original')" width="820" height="1100" filename="쯔위2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/994B094B5BE7E2030A" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/994B094B5BE7E2030A?original')" width="820" height="1101" filename="쯔위.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;">미나</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99A4984B5BE7E20313" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99A4984B5BE7E20313?original')" width="820" height="1100" filename="미나2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/994C6A4B5BE7E2040A" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/994C6A4B5BE7E2040A?original')" width="820" height="1101" filename="미나.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;">나연</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/9908F44B5BE7E2050E" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/9908F44B5BE7E2050E?original')" width="820" height="1100" filename="나연2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;"></p><center>
+<style>
+.ksmsangdan04 { width:100%; height: 280px; }
+@media(min-width: 768px) { .ksmsangdan04 { width: 100%; height: 211px; } }
+</style>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle ksmsangdan04" style="display:block" data-language="ko" data-full-width-responsive="true" data-ad-client="ca-pub-2901096480991813" data-ad-slot="4779410663"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+<center>
+<style>
+.ksmsangdan01 { width:100%; height: 280px; }
+@media(min-width: 768px) { .ksmsangdan01 { width: 100%; height: 211px; } }
+</style>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle ksmsangdan01" style="display:block" data-language="ko" data-full-width-responsive="true" data-ad-client="ca-pub-2901096480991813" data-ad-slot="4292804435"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center><br /><p></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/9974164B5BE7E20508" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/9974164B5BE7E20508?original')" width="820" height="1101" filename="나연.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;">모모</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99D7574B5BE7E2063A" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99D7574B5BE7E2063A?original')" width="820" height="1100" filename="모모2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99075C4B5BE7E2070E" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99075C4B5BE7E2070E?original')" width="820" height="1101" filename="모모.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;">다현</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/9941A34C5BE7E20803" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/9941A34C5BE7E20803?original')" width="820" height="1100" filename="다현2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/991CCF4C5BE7E20905" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/991CCF4C5BE7E20905?original')" width="820" height="1101" filename="다현.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;">채영</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99700A4C5BE7E20936" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99700A4C5BE7E20936?original')" width="820" height="1100" filename="채영2.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99F8F54C5BE7E20A07" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99F8F54C5BE7E20A07?original')" width="820" height="1101" filename="채영.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><br /></p><p style="text-align: center; clear: none; float: none;">트와이스 단체</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img src="https://t1.daumcdn.net/cfile/tistory/99E8C04C5BE7E20B08" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img('https://t1.daumcdn.net/cfile/tistory/99E8C04C5BE7E20B08?original')" width="820" height="550" filename="단체.jpg" filemime="image/jpeg" /></span></p><p style="text-align: center; clear: none; float: none;"><span style="color: rgb(241, 95, 95);">단체 사진은 바탕화면 하면 좋겠네요 :)</span></p><div class="tt_adsense_bottom" style="margin-top:30px"><script src="//static.dable.io/dist/tistory.min.js" defer>
+</script>
+<!--데이블 추천 위젯 스크립트-->
+
+
+
+
+
+
+<center>
+<style>
+.myAdha3061 { width:100%px; height: 280px; }
+@media(min-width: 768px) { .myAdha3061 { width: 100%; height: 211px; } }
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle myAdha3061"
+     style="display:block"
+     data-language="ko"
+     data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="4779410663"
+     ></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+
+
+
+<!-- 일치하는 콘텐츠 광고 시작 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"     
+     data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="2277035945"
+		 data-ad-format="autorelaxed"
+		 data-matched-content-rows-num="7"
+     data-matched-content-columns-num="4"
+     data-matched-content-ui-type="image_card_stacked"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- 일치하는 콘텐츠 광고 끝 -->
+
+
+
+<center>
+<style>
+.myAd3060 { width:100%px; height: 280px; }
+@media(min-width: 768px) { .myAd3060 { width: 100%; height: 211px; } }
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle myAd3060"
+     style="display:block"
+     data-language="ko"
+     data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="7848906060"
+     ></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+</div><div class="container_postbtn"><div class="postbtn_like"><div class="like_btn" data-uoc-svc="tistory" data-uoc-uid="763009_1418" data-uoc-sc="302" data-uoc-pcUrl="https://kissme2145.tistory.com/1418" data-uoc-fetchurl="http://api.kakao.tistory.com/like/fetch?uid=763009_1418"><label class="uoc-icon"><span class="ico_postbtn ico_like"></span> <span class="txt_like uoc-text">공감</span><span class="txt_like uoc-count"></span><input type="button" class="inp_btn uoc-button"></label></div><span class="ico_bar"></span><label data-thumbnail-url="https://t1.daumcdn.net/cfile/tistory/991DC4345BE7E2B637" data-title="트와이스 오보이 창간 9주년 기념 멤버별 표지 고화질 19장" data-description="해상도 1908 x 2560 1077 x 1446 2155 x 1466 (단체) 트둥이들 오보이(OhBoy!) 화보는 언제나 이쁘네요 :) 오늘 저녁이나 내일 배경으로 후딱 만들어야겠습니다. 참고로 방문자분들이 찾아보기 쉽게 본인 배경 카.." data-profile-image="https://tistory4.daumcdn.net/tistory/763009/attach/6f60bac88d954ca09c85d84e8519e8d4" data-profile-name="Kiss Me ♥" data-pc-url="https://kissme2145.tistory.com/1418" data-blog-title="아리따움 ; Kiss Me"><span class="ico_postbtn ico_sns">sns</span><input type="button" class="inp_btn"></label><span class="ico_bar"></span><label data-entry-id="1418"><span class="ico_postbtn ico_report">신고</span><input type="button" class="inp_btn"></label></div></div></div>
+										</div>
+								
+								
+								
+								
+								
+<!--썸네일 카테고리 목록-->
+                                <div class="area_related" style="margin-top:0px">
+                                    
+                                    <strong class="tit_related"><font color=#e9999c>'</font><a href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4%20%EB%B0%B0%EA%B2%BD"><b><font color=#3DB39E>폰 배경화면/트와이스 배경</font></b>'</a> 다른 글</strong>
+																			<ul class="list_related">
+                                        
+                                            <li class="thumb_type">
+                                                <a href="/1424?category=634440" class="link_related">
+                                                    
+                                                        <span class="thumb_related">
+                                                            <img src="//i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99CA04365BEA93BE2B" class="img_related" alt="">
+                                                        </span>
+                                                    
+                                                    <span class="txt_related">트와이스 빈폴스포츠 겨울 패딩 2018 고화질 화보 8장</span>
+                                                   <!-- <span class="date_related">2018.11.13</span>-->
+                                                    <span class="frame_related"></span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li class="thumb_type">
+                                                <a href="/1422?category=634440" class="link_related">
+                                                    
+                                                        <span class="thumb_related">
+                                                            <img src="//i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99262A355BE986AF30" class="img_related" alt="">
+                                                        </span>
+                                                    
+                                                    <span class="txt_related">트와이스 오보이 나연 정연 모모 폰 배경화면 &amp; 잠금화면 21장</span>
+                                                   <!-- <span class="date_related">2018.11.12</span>-->
+                                                    <span class="frame_related"></span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li class="thumb_type">
+                                                <a href="/1417?category=634440" class="link_related">
+                                                    
+                                                        <span class="thumb_related">
+                                                            <img src="//i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/999540435BE7D32A14" class="img_related" alt="">
+                                                        </span>
+                                                    
+                                                    <span class="txt_related">트와이스 빈폴 스포츠 2018 고화질 화보 10장</span>
+                                                   <!-- <span class="date_related">2018.11.11</span>-->
+                                                    <span class="frame_related"></span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li class="thumb_type">
+                                                <a href="/1415?category=634440" class="link_related">
+                                                    
+                                                        <span class="thumb_related">
+                                                            <img src="//i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99B217415BE7CDFD0E" class="img_related" alt="">
+                                                        </span>
+                                                    
+                                                    <span class="txt_related">트와이스 Dance The Night Away 티저 고화질 10장</span>
+                                                   <!-- <span class="date_related">2018.11.11</span>-->
+                                                    <span class="frame_related"></span>
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                    <a href="/category/%ED%8F%B0%20%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4/%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4%20%EB%B0%B0%EA%B2%BD" class="link_more">모두 보기+</a>
+                                    
+                                </div>
+<!--썸네일 카테고리 목록 끝-->
+								
+						
+<br>								
+<!-- 관련 글 하단 광고 -->	
+<center>
+<style>
+.all011 { width:100%; height: 280px; }
+@media(min-width: 768px) { .all011 { width: 820px; height: 211px; } }
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle all011"
+     style="display:block"
+     data-full-width-responsive="true"
+		 data-language="ko"
+		 data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="8165736307"
+     ></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>						
+<!-- 관련 글 하단 광고 -->
+							
+
+<div class="ks-wrap-sns-share">					
+<!-- 전체 테두리 -->
+
+<!-- SNS 공유 타이틀 -->
+<div style="width: 100%; border-bottom: 1px solid #fff; text-align:center;">
+<h4></h4>
+</div>
+
+<!-- SNS 공유 버튼 -->
+<div style="width: 100%; margin: 20px 0px; text-align: center;">
+
+<!-- 이 안에 원하는 SNS 공유 버튼 코드 삽입 -->
+
+<!-- 페이스북 -->
+<div style="width: 46px; text-align: center; display: inline-block;">
+<div>
+<a href="#" onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='
++encodeURIComponent(document.URL)+'&amp;t='+encodeURIComponent(document.title), 'facebooksharedialog',
+'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="페이스북에 공유하기" alt="페이스북에 공유하기">
+<img src="https://tistory4.daumcdn.net/tistory/763009/skin/images/facebook2.png" width="90%"></a>
+</div>
+<div>
+<span style="font-size:11px">페북</span>
+</div>
+</div>
+<!-- 페이스북 끝 -->
+
+<!-- 트위터 -->
+<div style="width: 46px; text-align: center; display: inline-block;">
+<div>
+<a href="#" onclick="javascript:window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(document.title)+'%20-%20'+encodeURIComponent(document.URL), 'twittersharedialog',
+'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="트위터에 공유하기" alt="트위터에 공유하기">
+<img src="https://tistory4.daumcdn.net/tistory/763009/skin/images/twitter2.png" width="90%"></a>
+</div>
+<div>
+<span style="font-size:11px">트위터</span>
+</div>
+</div>
+<!-- 트위터 끝 -->
+
+<!-- 구글 플러스 -->
+<div style="width: 46px; text-align: center; display: inline-block;">
+<div>
+<a href="#" onclick="javascript:window.open('https://plus.google.com/share?url='+encodeURIComponent(document.URL), 'googleplussharedialog','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" title="구글 플러스에 공유하기" alt="구글 플러스에 공유하기">
+<img src="https://tistory4.daumcdn.net/tistory/763009/skin/images/googleplus.png" width="90%"></a>
+</div>
+<div>
+<span style="font-size:11px">구글+</span>
+</div>
+</div>
+<!-- 구글 플러스 끝 -->
+
+	
+<!-- 밴드 -->
+<div style="width: 46px; text-align: center; display: inline-block;">
+<div>
+<a href="#" onclick="javascript:window.open('https://band.us/plugin/share?body='+encodeURIComponent(document.title)+encodeURIComponent('\r\n')+encodeURIComponent(document.URL)+'&route='+encodeURIComponent(document.URL), 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" alt="네이버 밴드에 공유하기">
+<img src="https://tistory4.daumcdn.net/tistory/763009/skin/images/naverband2.png" width="90%"></a>
+</div>
+<div>
+<span style="font-size:11px">밴드</span>
+</div>
+</div>
+<!-- 밴드 끝 -->	
+	
+<!-- 카카오 스토리 -->
+<div style="width: 46px; text-align: center; display: inline-block;">
+<div>
+<a href="#" onclick="javascript:window.open('https://story.kakao.com/s/share?url='+encodeURIComponent(document.URL), 'kakaostorysharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" alt="카카오 스토리에 공유하기">
+<img src="https://tistory4.daumcdn.net/tistory/763009/skin/images/kakaostory2.png" width="90%"></a>
+</div>
+<div>
+<span style="font-size:11px">카스</span>
+</div>
+</div>
+<!-- 카카오 스토리 끝 -->	
+	
+
+
+
+
+<!-- 네이버 블로그 -->
+<div style="width: 46px; text-align: center; display: inline-block;">
+<div>
+<a href="#" onclick="javascript:window.open('https://share.naver.com/web/shareView.nhn?url='
++encodeURIComponent(document.URL)+'&amp;title='+encodeURIComponent(document.title),
+'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" alt="네이버 블로그 카페에 공유하기">
+<img src="https://tistory4.daumcdn.net/tistory/763009/skin/images/naverblog2.png" width="90%"></a>
+</div>
+<div>
+<span style="font-size:11px">네이버</span>
+</div>
+</div>
+<!-- 네이버 블로그 끝 -->
+
+</div>
+<!-- SNS 공유 타이틀 끝-->
+</div></div>
+<!-- 전체 테두리 끝-->	
+							
+								<!-- sns 공유 및 태그 안보이게 막음 -->
+								<!--<div class="area_etc">
+									<strong class="screen_out">공유하기 링크</strong>
+									<ul class="list_share">
+										<li><a href="#none" class="ico_skin link_fb" data-service="facebook">페이스북</a></li>
+										<li><a href="#none" class="ico_skin link_ks" data-service="kakaostory">카카오스토리</a></li>
+										<li><a href="#none" class="ico_skin link_tw" data-service="twitter">트위터</a></li>
+									</ul>
+
+									
+										<dl class="list_tag">
+											<dt class="tit_tag">TAG</dt>
+											<dd class="desc_tag"><a href="/tag/%EA%B3%A0%ED%99%94%EC%A7%88"  rel="tag">고화질</a>,
+<a href="/tag/%EC%98%A4%EB%B3%B4%EC%9D%B4"  rel="tag">오보이</a>,
+<a href="/tag/%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4"  rel="tag">트와이스</a></dd>
+										</dl>
+									
+								</div>-->
+								<!-- sns 공유 및 태그 안보이게 막음 -->
+								
+								
+
+								<div class="area_reply ">
+									<strong class="tit_reply">댓글 남기기
+										<button type="button" class="btn_reply" onclick="$.Area.Comment.changeStatus();toggleLayerForEntry('1418', 'comment'); return false">
+											<span id="commentCount1418">0</span>
+											<span class="ico_skin ico_reply">댓글펼치기</span>
+										</button>
+									</strong>
+
+									<!-- 대체텍스트 댓글펼치기/댓글접기 변경 -->
+									<div id="entry1418Comment" style="display:block">
+										<button type="button" class="btn_replymore">이전 댓글 보기</button>
+										
+
+										<form method="post" action="/comment/add/1418" onsubmit="return false" style="margin: 0">
+											<fieldset class="fld_reply">
+												<legend class="screen_out">댓글쓰기 폼</legend>
+												<div class="reply_write ">
+													<label for="comment" class="lab_write"></label>
+													<textarea id="comment" name="comment" class="tf_reply" placeholder="Kiss Me - 여러분의 댓글은 큰 힘이 됩니다 :)" tabindex="1"></textarea>
+												</div>
+												<div class="reply_writer">
+													
+														
+															<div class="writer_info">
+																<span class="info_name ">
+																	<span class="wrap_info">
+																		<input type="text" name="name" id="name" class="inp_info" placeholder="이름" value="" tabindex="2">
+																	</span>
+																</span>
+																<span class="info_pw ">
+																	<span class="wrap_info">
+																		<input type="password" name="password" id="password" class="inp_info" placeholder="비밀번호" tabindex="3">
+																	</span>
+																</span>
+															</div>
+														
+														<div class="writer_check">
+															<span class="check_secret ">
+																<input type="checkbox" name="secret" id="secret" class="inp_secret" tabindex="4">
+																<label for="secret" class="lab_secret">
+																	<span class="ico_skin ico_check"></span>비밀글
+																</label>
+															</span>
+
+														</div>
+
+													
+
+													<div class="writer_btn">
+														<button type="submit" class="btn_enter" onclick="addComment(this, 1418); return false;" tabindex="5">입력</button>
+													</div>
+												</div>
+											</fieldset>
+										</form>
+
+									</div><script type="text/javascript">loadedComments[1418]=true;findFragmentAndHighlight(1418)</script>
+								</div>
+							<!--</div>-->
+						
+					</div>
+				
+				</div> <!-- masonry_container for thumbnail -->
+				<div class="clear-masonry"></div> <!-- clear-masonry -->
+				
+
+				
+
+
+				
+					<div class="area_paging area_paging_list">
+						<span class="inner_paging">
+							<a  href='/1422?category=634440' class="ico_skin link_prev ">이전</a>
+							
+								<a  href='/1449?category=634440' class="link_page"><span >1</span></a>
+							
+								<a  class="link_page"><span >&middot;&middot;&middot;</span></a>
+							
+								<a  href='/1432?category=634440' class="link_page"><span >6</span></a>
+							
+								<a  href='/1428?category=634440' class="link_page"><span >7</span></a>
+							
+								<a  href='/1424?category=634440' class="link_page"><span >8</span></a>
+							
+								<a  href='/1422?category=634440' class="link_page"><span >9</span></a>
+							
+								<a  class="link_page"><span class="selected">10</span></a>
+							
+								<a  href='/1417?category=634440' class="link_page"><span >11</span></a>
+							
+								<a  href='/1415?category=634440' class="link_page"><span >12</span></a>
+							
+								<a  href='/1412?category=634440' class="link_page"><span >13</span></a>
+							
+								<a  href='/1410?category=634440' class="link_page"><span >14</span></a>
+							
+								<a  class="link_page"><span >&middot;&middot;&middot;</span></a>
+							
+								<a  href='/789?category=634440' class="link_page"><span >71</span></a>
+							
+							<a  href='/1417?category=634440' class="ico_skin link_next ">다음</a>
+						</span>
+					</div>
+
+				
+					
+					
+					<div class="area_paging area_paging_simple">
+						<div class="inner_paging">
+							<a  href='/1422?category=634440' class="link_prev ">
+								<span class="ico_skin ico_prev"></span>이전
+							</a>
+
+							<a  href='/1417?category=634440' class="link_next ">
+								다음<span class="ico_skin ico_next"></span>
+							</a>
+						</div>
+					</div>
+				
+<!-- 이전 다음 위 광고 -->	
+<center>
+<style>
+.all31 { width:100%; height: 280px; }
+@media(min-width: 768px) { .all31 { width: 100%; height: 250px; } }
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle all31"
+     style="display:block"
+     data-full-width-responsive="true"
+		 data-language="ko"
+		 data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="1563850690"
+     ></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+<!-- 이전 다음 위 광고 -->	
+
+				<div id="mEtc" class="wrap_etc">
+					<div class="inner_aside">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="hide">
+		 <div id="dkFoot" role="contentinfo" class="area_foot">
+			<div class="logo05"><a href="/"><img src="https://tistory4.daumcdn.net/tistory/763009/skin/images/iuicon.gif" alt=""></a></div>	
+			 
+<div class="counter">
+								<span class="today">TODAY &nbsp;2,867</span>
+								<span class="yesterday">&nbsp;&nbsp;YESTERDAY&nbsp;2,985</span>
+								<span class="total">&nbsp;&nbsp;ALL &nbsp;2,292,229</span>
+							</div>
+			 
+			<a href="https://kissmehd.tistory.com" target="_blank">
+			<em class="emph_t">아리따움 ; 스타★ 고화질 화보 Blog</em></a> / 
+			<a href="https://www.youtube.com/c/kissme2145" target="_blank">
+			<em class="emph_t">아리따움 ; YouTube 채널</em></a><br>Customized by Kiss Me ♥
+		</div></div>
+
+
+<script src="https://tistory4.daumcdn.net/tistory/763009/skin/images/script.js"></script>
+<script>
+(function($) {
+	$.Area.init();
+})(jQuery);
+</script>
+	
+<script src="https://tistory4.daumcdn.net/tistory/763009/skin/images/imagesloaded.pkgd.min.js"></script>
+<script src="https://tistory4.daumcdn.net/tistory/763009/skin/images/masonry.pkgd.min.js"></script>
+<script>
+		$(function(){
+			var $grid = $('.masonry_container').imagesLoaded( function() {
+			// init Masonry after all images have loaded
+			$grid.masonry({
+					itemSelector: '.list_content',
+					columnWidth: '.list_content'
+				});
+			});
+		});
+	
+	/*$(document).ready(function () {
+		// masonry 플러그인을 적용합니다.
+    $('.masonry_container').masonry({
+    	itemSelector: '.list_content',
+      columnWidth: '.list_content',
+			percentPosition: true
+		});
+		
+		// 잘못된 포스트 일 경우
+		if($('.absent_post').length > 0)
+		{
+				$('div.masonry_container').css('position','');
+				$('div.masonry_container').css('height','');
+				$('div.masonry_container').removeClass('masonry_container');
+		}  
+	});*/
+</script>
+<!-- 상단 고정 해제 -->
+<!--<script>
+	$( document ).ready( function() {
+		$( window ).scroll( function() {
+			if ( $( this ).scrollTop() > 10 ) {
+				$('.area_head').fadeOut();
+				$('.tit_category').fadeOut();
+			} 
+			else { 
+				$('.area_head').fadeIn(); 
+				$('.tit_category').fadeIn();
+			} 
+		});
+	});
+</script>-->
+<!-- 상단 고정 해제 -->
+
+<!--댓글에 프로필 사진 넣기-->
+<script type="text/javascript">
+(function($) {
+    $('.tit_nickname img').hide();
+    $('.list_reply li').each(function() {
+        var blogIcon = $(this).find('.tit_nickname img').attr('src');
+        if (typeof blogIcon == 'string') {
+            $(this).find('.img_profile').attr('src', blogIcon);
+        }
+    });
+})(jQuery);
+</script>
+<!--댓글에 프로필 사진 넣기-->
+	
+<!-- TOP 아이콘 -->
+<script type="text/javascript">
+$(function(){
+  $("#gotop").hide();
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 1800){$("#gotop").fadeIn();}
+    else{$("#gotop").fadeOut();}
+  });
+});
+</script>
+<a href="#" id="gotop" style="display:none;position:fixed;bottom:65px;right:20px;z-index:99999999" title="Top"><img src="https://tistory4.daumcdn.net/tistory/763009/skin/images/top.png" border="0"/></a>
+<!-- TOP 아이콘 -->
+
+<!-- 상단 고정바 해제 -->
+<!--<script>
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('.area_head').outerHeight();
+$(window).scroll(function(event){
+    didScroll = true;
+});
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('.area_head').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('.area_head').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    lastScrollTop = st;
+}
+</script>-->
+<!-- 상단 고정바 해제 -->
+	
+<!-- 새글 new icon -->
+<script type="text/javascript">$('img[alt="N"]').each(function(){$(this).replaceWith('<img src="https://tistory4.daumcdn.net/tistory/763009/skin/images/new_ico.gif">');});	</script>	
+	
+<!-- AMP 자동광고 -->
+<!--<amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-2901096480991813">
+</amp-auto-ads>	-->
+<!-- AMP 자동광고 -->	
+	
+	
+<!-- 이미지 하단 자동 -->	
+<div id="adsenselink1" style="display:none;">
+<!-- 애드센스 [링크 반응형1] 코드를 복사해서 여기부터 -->
+<style>
+.myAd306011 { width:100%px; height: 280px; }
+@media(min-width: 768px) { .myAd306011 { width: 100%; height: 211px; } }
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle myAd306011"
+     style="display:block"
+     data-language="ko"
+		 data-full-width-responsive="true"
+     data-ad-client="ca-pub-2901096480991813"
+     data-ad-slot="1990138360"
+     ></ins>
+<!-- 여기까지 [링크 반응형1] 코드를 붙여넣으시되,
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+위 코드는 빼고 넣으세요.  -->
+</div>
+<script type="text/javascript">
+$(function(){
+  var numimg = parseInt($(".imageblock").length,10);
+  var ibwidth = 768;
+  if(numimg>0){
+    ibwidth = $(".imageblock:eq(2)").css("width");
+    // [링크 반응형1]를 첫번째 이미지 아래에 넣고 싶으면 .imageblock:first eq(2)
+    // [링크 반응형1]를 마지막 이미지 아래에 넣고 싶으면 .imageblock:last
+    if(parseInt(ibwidth) < 728){
+      $("#adsenselink1").css({"display":"block","min-height":"211px","width":"100%"});
+    }else{
+      $("#adsenselink1").css({"display":"block","min-height":"211px","width":"100%"});
+    }
+    $(".imageblock:eq(2)").append($("#adsenselink1"));
+    // [링크 반응형1]를 첫번째 이미지 아래에 넣고 싶으면 .imageblock:first
+    // [링크 반응형1]를 마지막 이미지 아래에 넣고 싶으면 .imageblock:last
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  }else{
+    $("#adsenselink1").remove();
+  }
+});
+</script>	
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = encodeURI("4901d924dd0718");
+	wcs_do();
+</script><script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-91274770-1', 'auto');
+	ga('send', 'pageview');
+</script><script>
+    (function($) {
+        $("body").bind('copy', function (e) {
+
+            var url = document.location.href,
+                decodedUrl = decodeURI(url),
+                selection = window.getSelection();
+
+
+            if (typeof window.getSelection == "undefined") {//IE8 or earlier...
+                event.preventDefault();
+
+                var pagelink = '\n\n 출처: ' + decodedUrl,
+                    copytext = selection + pagelink;
+
+                if (window.clipboardData) {
+                    window.clipboardData.setData('Text', copytext);
+                }
+                return;
+            }
+            var body_element = document.getElementsByTagName('body')[0];
+
+            //if the selection is short let's not annoy our users
+            if (("" + selection).length < 30) return;
+
+            //create a div outside of the visible area
+            var newdiv = document.createElement('div');
+            newdiv.style.position = 'absolute';
+            newdiv.style.left = '-99999px';
+            body_element.appendChild(newdiv);
+            newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+            //we need a <pre> tag workaround
+            //otherwise the text inside "pre" loses all the line breaks!
+            if (selection.getRangeAt(0).commonAncestorContainer.nodeName == "PRE") {
+                newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+            }
+
+            newdiv.innerHTML += '<br /><br />출처: <a href="' + url + '">' + decodedUrl + '</a> [아리따움 ; Kiss Me]';
+
+            selection.selectAllChildren(newdiv);
+            window.setTimeout(function () {
+                body_element.removeChild(newdiv);
+            }, 200);
+
+        });
+    })(tjQuery);
+</script><script src="https://t1.daumcdn.net/tistory_admin/blogs/plugins/RainbowLink/rainbow.js?_version_=6a869d93b70df284225c7448b949c304cf73ae32" type="text/javascript"></script>
+<script type="text/javascript">
+var _tiq = 'undefined' !== typeof _tiq ? _tiq : [];
+_tiq.push(['__setConfig', {enableScroll:true, enableClick:true, enableButton:true}]);
+_tiq.push(["__setParam", "svcdomain", "user.tistory.com"]);
+(function(d) {
+	var se = d.createElement('script'); se.type = 'text/javascript'; se.async = true;
+	se.src = location.protocol + '//m2.daumcdn.net/tiara/js/td.min.js';
+	var s = d.getElementsByTagName('head')[0]; s.appendChild(se);
+})(document);
+_tiq.push(['__setParam', 'param_ex', JSON.stringify({"userId":"180412","blogId":"763009","entryId":"1418"})]);
+_tiq.push(['__trackPageview']);
+_tiq.push(['__content', 't_content', {
+'c_id':'763009_1418', 
+'c_title':'트와이스 오보이 창간 9주년 기념 멤버별 표지 고화질 19장', 
+'type':'article', 
+'author':'', 
+'author_id':'180412', 
+'cp':'아리따움 ; Kiss Me', 
+'cp_id':'763009', 
+'regdata':'2018-11-11 17:08:33', 
+'plink':'https://kissme2145.tistory.com/1418', 
+'media':'pcweb', 
+}]);
+var addEvent = function (evt, fn) { window.addEventListener ? window.addEventListener(evt, fn, false) : window.attachEvent('on' + evt, fn); };
+var removeEvent = function(evt, fn) { window.removeEventListener ? window.removeEventListener(evt, fn, false) : window.detachEvent('on' + evt, fn);};
+var ua = navigator.userAgent.toLowerCase(); var isIOS = /iP[ao]d|iPhone/i.test(ua);
+var contentExStat = function() {
+		_tiq.push(['__content', 't_content_ex', {
+			'data_type':'usage'
+, 'meta': {
+'c_id':'763009_1418', 
+'c_title':'트와이스 오보이 창간 9주년 기념 멤버별 표지 고화질 19장', 
+'type':'article', 
+'author':'', 
+'author_id':'180412', 
+'cp':'아리따움 ; Kiss Me', 
+'cp_id':'763009', 
+'regdata':'2018-11-11 17:08:33', 
+'plink':'https://kissme2145.tistory.com/1418', 
+'media':'pcweb', 
+}
+}]);
+		removeEvent(isIOS ? 'pagehide' : 'beforeunload', contentExStat);
+};
+addEvent(isIOS ? 'pagehide' : 'beforeunload', contentExStat);
+</script>
+<script type="text/javascript">window.roosevelt_params_queue = window.roosevelt_params_queue || []; window.roosevelt_params_queue.push({channel_id: "dk", channel_label: 'tistory'});</script>
+<script type="text/javascript" src="//t1.daumcdn.net/midas/rt/dk_bt/roosevelt_dk_bt.js" async></script><script type="text/javascript">if(window.console!=undefined){setTimeout(console.log.bind(console,"%cTISTORY","font:8em Arial;color:#EC6521;font-weight:bold"),0);setTimeout(console.log.bind(console,"%c  나를 표현하는 블로그","font:2em sans-serif;color:#333;"),0);}</script><iframe style="position:absolute;width:1px;height:1px;left:-100px;top:-100px" src="//kissme2145.tistory.com/api" id="editEntry"></iframe><div id="layer_sns" class="layer_sns">
+        <div class="bg_layer"></div>
+        <ul class="list_sns">
+            <li><a class="ico_sns ico_fb" data-service="facebook">페이스북 공유하기</a></li>
+            <li><a class="ico_sns ico_kt" data-service="kakaotalk">카카오톡 공유하기</a></li>
+            <li><a class="ico_sns ico_ks" data-service="kakaostory">카카오스토리 공유하기</a></li>
+            <li><a class="ico_sns ico_tw" data-service="twitter">트위터 공유하기</a></li>
+        </ul>
+        <button type="button" class="btn_close"><span class="ico_sns ico_close">sns공유하기 레이어 닫기</span></button>
+    </div></body>
+
+</html>
+
