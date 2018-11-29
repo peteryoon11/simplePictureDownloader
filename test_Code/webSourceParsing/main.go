@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strings"
 )
 
 func main() {
@@ -16,6 +17,15 @@ func readLine(path string) {
 	scanner.Split(bufio.ScanLines)
 
 	for scanner.Scan() {
-		fmt.Println(scanner.Text())
+		temp := scanner.Text()
+		//fmt.Println(scanner.Text())
+		//	fmt.Println(temp)
+		parsingImgPath(temp)
 	}
+}
+func parsingImgPath(temp string) {
+	if strings.Contains(temp, "<img") {
+		fmt.Println(temp)
+	}
+
 }
