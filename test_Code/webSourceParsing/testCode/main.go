@@ -14,6 +14,7 @@ func getHref(t html.Token) (ok bool, href string) {
 	// Iterate over all of the Token's attributes until we find an "href"
 	for _, a := range t.Attr {
 		if a.Key == "href" {
+			//if a.Key == "img" {
 			href = a.Val
 			ok = true
 		}

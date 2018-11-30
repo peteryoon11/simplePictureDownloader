@@ -43,6 +43,7 @@ func improvGetWebSourceFunc() {
 	resp, err := client.Do(req)
 	if err != nil {
 		panic(err)
+		recover()
 	}
 	defer resp.Body.Close()
 
