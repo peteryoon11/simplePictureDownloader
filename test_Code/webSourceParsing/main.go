@@ -11,7 +11,8 @@ import (
 func main() {
 	//readLine("./defaultSource/test.txt")
 
-	path := "./defaultSource/testparsing.txt"
+	//	path := "./defaultSource/testparsing.txt"
+	path := "./defaultSource/test.txt"
 	//	path := "c:/dev/private/golang/simple-tool/test_Code/webSourceParsing/defaultSource/testparsing.txt"
 	readLine(path)
 	/* fmt.Println(strings.Contains("seafood", "foo"))
@@ -27,19 +28,20 @@ func readLine(path string) {
 	defer inFile.Close()
 	scanner := bufio.NewScanner(inFile)
 	scanner.Split(bufio.ScanLines)
-	i := 0
+	//i := 0
 	for scanner.Scan() {
 		temp := scanner.Text()
 		//fmt.Println(scanner.Text())
-		fmt.Println("no = ", i)
-		i++
+		//fmt.Println("no = ", i)
+		//i++
 		//fmt.Println(temp)
 		parsingImgPath(temp)
 	}
 }
 func parsingImgPath(temp string) {
-	if strings.Contains(temp, "abc") {
+	if strings.Contains(temp, "<img") {
 		fmt.Println(temp)
+
 	}
 
 }
