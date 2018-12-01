@@ -58,7 +58,7 @@ func improvGetWebSourceFunc() {
 			} */
 			for _, a := range t.Attr {
 				fmt.Println("key = ", a, " ")
-				if a.Key == "src" {
+				if a.Key == "img" {
 					//fmt.Println("Found href:", a.Val)
 					if strings.Contains(a.Val, "http") {
 						fmt.Println(a.Val)
