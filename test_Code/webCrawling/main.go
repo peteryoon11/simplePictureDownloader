@@ -3,14 +3,18 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"os"
+	"strings"
 
 	"golang.org/x/net/html"
 )
 
 func main() {
-	fmt.Println(os.Args[1:])
-	fmt.Println(os.Args[0:1])
+	improvGetWebSourceFunc()
+}
+func FindToken() {
+
+	//z := html.NewTokenizer(response.Body)
+
 }
 
 func improvGetWebSourceFunc() {
@@ -47,15 +51,18 @@ func improvGetWebSourceFunc() {
 		case tt == html.StartTagToken:
 			t := z.Token()
 
-			/* 	isAnchor := t.Data == "img"
-			if isAnchor {
+			//isAnchor := t.Data == "img"
+			/* 	if isAnchor {
 				//fmt.Println("We found a link!")
-			//	fmt.Println(t.Data)
+				fmt.Println(t.Data)
 			} */
 			for _, a := range t.Attr {
 				if a.Key == "src" {
-					fmt.Println("Found href:", a.Val)
-					break
+					//fmt.Println("Found href:", a.Val)
+					if strings.Contains(a.Val, "http") {
+						fmt.Println(a.Val)
+					}
+					//break
 				}
 			}
 		}

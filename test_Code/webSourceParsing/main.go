@@ -6,6 +6,8 @@ import (
 	"log"
 	"os"
 	"strings"
+
+	"golang.org/x/net/html"
 )
 
 func main() {
@@ -40,10 +42,37 @@ func readLine(path string) {
 }
 func parsingImgPath(temp string) {
 	if strings.Contains(temp, "<img") {
-		fmt.Println(temp)
-
+		//fmt.Println(temp)
+		parsingImgSrc(temp)
 	}
 
+}
+func parsingImgSrc(temp string) {
+	if strings.Contains(temp, "src") {
+		fmt.Println(temp)
+		//parsingImgSrc(temp)
+	}
+}
+func FindToken() {
+	
+	z := html.NewTokenizer(response.Body)
+
+	for {
+		tt := z.Next()
+
+		switch {
+		case tt == html.ErrorToken:
+			// End of the document, we're done
+			return
+		case tt == html.StartTagToken:
+			t := z.Token()
+
+			isAnchor := t.Data == "a"
+			if isAnchor {
+				fmt.Println("We found a link!")
+			}
+		}
+	}
 }
 func readLinever2(path string) {
 	//file, err := os.Open("/path/to/file.txt")
