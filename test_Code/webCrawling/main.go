@@ -57,14 +57,16 @@ func improvGetWebSourceFunc() {
 				fmt.Println(t.Data)
 			} */
 			for _, a := range t.Attr {
+				fmt.Println("key = ", a, " ")
 				if a.Key == "src" {
 					//fmt.Println("Found href:", a.Val)
 					if strings.Contains(a.Val, "http") {
 						fmt.Println(a.Val)
 					}
-					//break
+					break
 				}
 			}
+			fmt.Println("")
 		}
 	}
 
