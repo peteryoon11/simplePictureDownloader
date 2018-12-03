@@ -47,6 +47,7 @@ func improvGetWebSourceFunc() {
 		switch {
 		case tt == html.ErrorToken:
 			// End of the document, we're done
+			fmt.Println(html.ErrorToken)
 			return
 		case tt == html.StartTagToken:
 			t := z.Token()
@@ -66,7 +67,7 @@ func improvGetWebSourceFunc() {
 					break
 				}
 			}
-			fmt.Println("")
+			fmt.Println("=")
 		}
 	}
 
