@@ -5,7 +5,6 @@ import (
 	"io"
 	"net/http"
 	"os"
-	"strconv"
 	"strings"
 
 	"golang.org/x/net/html"
@@ -44,7 +43,7 @@ func improvGetWebSourceFunc() {
 	defer resp.Body.Close()
 
 	z := html.NewTokenizer(resp.Body)
-	i := 0
+	//i := 0
 	for {
 		tt := z.Next()
 
@@ -61,18 +60,18 @@ func improvGetWebSourceFunc() {
 				//fmt.Println("We found a link!")
 				fmt.Println(t.Data)
 			} */
-
+			fmt.Println(t.Type)
 			for _, a := range t.Attr {
 
-				//	fmt.Println("key = ", a, " ")
-				//if a.Key == "img" {
-				if a.Key == "src" {
+				fmt.Println("key = ", a, " ")
+				if a.Key == "img" {
+					//if a.Key == "src" {
 					//fmt.Println("Found href:", a.Val)
 					if strings.Contains(a.Val, "cdn") {
 						fmt.Println(a.Val)
-						tempInt := strconv.Itoa(i)
-						i++
-						DownloadFile("./temp/"+tempInt+".jpg", a.Val)
+						//tempInt := strconv.Itoa(i)
+						//i++
+						//	DownloadFile("./temp/"+tempInt+".jpg", a.Val)
 					}
 					//break
 				}
