@@ -1,8 +1,6 @@
 package main
 
 import (
-	"encoding/json"
-	"fmt"
 	"log"
 	"net/http"
 
@@ -43,21 +41,22 @@ func getWebSourcTest(w http.ResponseWriter, r *http.Request, ps httprouter.Param
 
 	   		respondUser = structModule.Response{403, "Invalid Auth key or Expire key", tempBookArray}
 	   	} */
-	respondHTML := "<html>"
-	respondHTML += "<!DOCTYPE html>"
+	respondHTML := "<!DOCTYPE html>"
+	respondHTML += "<html>"
 	respondHTML += "<head> <meta charset='utf-8'> <meta name='viewport' content='width=device-width'> <title>JS Bin</title>  </head>"
 	respondHTML += "<body>"
 	respondHTML += "<img src='https://t1.daumcdn.net/cfile/tistory/99C4233C5BE7E1FE05' style='cursor: pointer;max-width:100%;height:auto'  width='820' height='1100'  filemime='image/jpeg' />"
 	respondHTML += "</body>"
 	respondHTML += "</html>"
-	temp, err := json.Marshal(respondHTML)
-	if err != nil {
+	//temp, err := json.Marshal(respondHTML)
+	/* 	if err != nil {
 		fmt.Println(err)
-	}
+	} */
 	//fmt.Println()
 	//w.Header().Set("Content-Type", "application/json")
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
-	//w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Write(temp)
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+
+	w.Write([]byte(respondHTML))
 
 }
