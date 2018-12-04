@@ -60,15 +60,16 @@ func improvGetWebSourceFunc() {
 				//fmt.Println("We found a link!")
 				fmt.Println(t.Data)
 			} */
-			fmt.Println(t.Type)
+			//fmt.Println(t.Type)
+			fmt.Println(t.Data)
 			for _, a := range t.Attr {
-
-				fmt.Println("key = ", a, " ")
-				if a.Key == "img" {
+				//t.Data
+				//fmt.Println("key = ", a, " ")
+				if a.Key == "src" {
 					//if a.Key == "src" {
 					//fmt.Println("Found href:", a.Val)
-					if strings.Contains(a.Val, "cdn") {
-						fmt.Println(a.Val)
+					if strings.Contains(a.Val, "https://t1.daumcdn.net/cfile/tistory/99C4233C5BE7E1FE05") {
+						fmt.Println("=+++++++++++++++++ =       ", a.Val)
 						//tempInt := strconv.Itoa(i)
 						//i++
 						//	DownloadFile("./temp/"+tempInt+".jpg", a.Val)
