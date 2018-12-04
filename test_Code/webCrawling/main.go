@@ -24,7 +24,13 @@ func improvGetWebSourceFunc() {
 	// Request 객체 생성
 	// https://kissme2145.tistory.com/1418?category=634440
 	//req, err := http.NewRequest("GET", "http://csharp.tips/feed/rss", nil)
-	req, err := http.NewRequest("GET", "https://kissme2145.tistory.com/1418?category=634440", nil)
+
+	//	testURL :="https://kissme2145.tistory.com/1418?category=634440"
+
+	testURL := "http://localhost:8090/getMyBook"
+
+	req, err := http.NewRequest("GET", testURL, nil)
+
 	if err != nil {
 		panic(err)
 	}
@@ -61,6 +67,7 @@ func improvGetWebSourceFunc() {
 				fmt.Println(t.Data)
 			} */
 			//fmt.Println(t.Type)
+			fmt.Println(t.Data)
 			fmt.Println(t.Data)
 			for _, a := range t.Attr {
 				//t.Data
