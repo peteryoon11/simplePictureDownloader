@@ -16,7 +16,7 @@ import (
 func main() {
 	// Make HTTP request
 	//response, err := http.Get("https://www.devdungeon.com")
-	fmt.Println(os.Args[1:])
+	//fmt.Println(os.Args[1:])
 	var (
 		webpageAddress string
 		filepath       string
@@ -89,14 +89,14 @@ func DownloadFile(filepath string, url string) error {
 	filepathOnlyPath, _ := path.Split(filepath)
 	if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
 		// path/to/whatever does not exist
-		fmt.Println("filepathOnlyPath = ", filepathOnlyPath)
+		//fmt.Println("filepathOnlyPath = ", filepathOnlyPath)
 		// 이렇게 여러번 확인 할 필요가 있나.. 싶은데.. 나중에 다시 체크 하자.
 		err := os.Mkdir(filepathOnlyPath, 0755)
 		if err != nil {
 			fmt.Println(err)
 		}
 	} else {
-		fmt.Println("있으면 ")
+		fmt.Println("filepath is exist")
 	}
 
 	/* 	file, err := os.Open(filepathOnlyPath)
