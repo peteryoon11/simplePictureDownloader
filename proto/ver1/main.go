@@ -8,6 +8,7 @@ import (
 	"os"
 	"path"
 	"strconv"
+	"strings"
 
 	"github.com/PuerkitoBio/goquery"
 )
@@ -16,7 +17,30 @@ func main() {
 	// Make HTTP request
 	//response, err := http.Get("https://www.devdungeon.com")
 	fmt.Println(os.Args[1:])
-	response, err := http.NewRequest("GET", "https://kissme2145.tistory.com/1418?category=634440", nil)
+	var (
+		webpageAddress string
+		filepath       string
+	)
+	for _, item := range os.Args[1:] {
+		//fmt.Println(item)
+		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "site") {
+			webpageAddress = strings.Split(item, "=")[1]
+		}
+		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "path") {
+			filepath = strings.Split(item, "=")[1]
+		}
+	}
+	//fmt.Println("web page!!", webpageAddress)
+	//fmt.Println("path!!", filepath)
+	// 필요한 부분은 웹페이지 하나 일단
+	//	ProcessCore()
+	ProcessCore(webpageAddress, filepath)
+
+}
+func ProcessCore(webpage string, filepath string) {
+
+	//response, err := http.NewRequest("GET", "https://kissme2145.tistory.com/1418?category=634440", nil)
+	response, err := http.NewRequest("GET", webpage, nil)
 	if err != nil {
 		panic(err)
 	}
@@ -49,11 +73,11 @@ func main() {
 			//	fmt.Println(imgSrc) // 굳이 보여줄 필요는...
 			tempInt := strconv.Itoa(i)
 			i++
-			DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
+			//DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
+			DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc)
 		}
 	})
 }
-
 func DownloadFile(filepath string, url string) error {
 
 	//strings.Split(filepath, "/")[0]
@@ -63,7 +87,7 @@ func DownloadFile(filepath string, url string) error {
 	// 파일 패스는 depth 가 여러개 들어 갈 수 있음
 	//os.IsDir()
 	filepathOnlyPath, _ := path.Split(filepath)
-	if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
+	if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
 		// path/to/whatever does not exist
 		fmt.Println("filepathOnlyPath = ", filepathOnlyPath)
 		// 이렇게 여러번 확인 할 필요가 있나.. 싶은데.. 나중에 다시 체크 하자.
@@ -71,9 +95,9 @@ func DownloadFile(filepath string, url string) error {
 		if err != nil {
 			fmt.Println(err)
 		}
-	} /* else {
+	} else {
 		fmt.Println("있으면 ")
-	} */
+	}
 
 	/* 	file, err := os.Open(filepathOnlyPath)
 	   	if err != nil {
@@ -92,6 +116,7 @@ func DownloadFile(filepath string, url string) error {
 	*/
 	out, err := os.Create(filepath)
 	if err != nil {
+		fmt.Println("create")
 		fmt.Println(err)
 		return err
 	}
