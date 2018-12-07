@@ -87,7 +87,7 @@ func DownloadFile(filepath string, url string) error {
 	// 파일 패스는 depth 가 여러개 들어 갈 수 있음
 	//os.IsDir()
 	filepathOnlyPath, _ := path.Split(filepath)
-	if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
+	if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
 		// path/to/whatever does not exist
 		//fmt.Println("filepathOnlyPath = ", filepathOnlyPath)
 		// 이렇게 여러번 확인 할 필요가 있나.. 싶은데.. 나중에 다시 체크 하자.
