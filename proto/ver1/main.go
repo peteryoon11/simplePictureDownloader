@@ -49,7 +49,8 @@ func ProcessCore(webpage string, filepath string) {
 	}
 	response, err := http.NewRequest("GET", webpage, nil)
 	if err != nil {
-		panic(err)
+		//panic(err)
+		fmt.Println(err)
 	}
 
 	//필요시 헤더 추가 가능
@@ -61,7 +62,8 @@ func ProcessCore(webpage string, filepath string) {
 	client := &http.Client{}
 	resp, err := client.Do(response)
 	if err != nil {
-		panic(err)
+		//panic(err)
+		fmt.Println(err)
 
 	}
 
@@ -95,43 +97,33 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	// 파일 패스는 depth 가 여러개 들어 갈 수 있음
 	//os.IsDir()
 	filepathOnlyPath, _ := path.Split(filepath)
-	if runtime.GOOS == "darwin" {
-		fmt.Println("Mac OS detected")
-		if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
+	if count == 0 {
 
-			err := os.Mkdir(filepathOnlyPath, 0755)
-			if err != nil {
-				fmt.Println(err)
+		if runtime.GOOS == "linux" || runtime.GOOS == "darwin" { // also can be specified to FreeBSD
+			fmt.Println("Unix/Linux or Mac OS type OS detected")
+			if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
+
+				err := os.Mkdir(filepathOnlyPath, 0755)
+				if err != nil {
+					fmt.Println(err)
+				}
+			} else {
+				fmt.Println("filepath is exist")
 			}
-		} else {
-			fmt.Println("filepath is exist")
+		}
+		if runtime.GOOS == "windows" {
+			fmt.Println("Windows OS detected")
+			if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
+
+				err := os.Mkdir(filepathOnlyPath, 0755)
+				if err != nil {
+					fmt.Println(err)
+				}
+			} else {
+				fmt.Println("filepath is exist")
+			}
 		}
 	}
-	if runtime.GOOS == "linux" { // also can be specified to FreeBSD
-		fmt.Println("Unix/Linux type OS detected")
-		if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
-
-			err := os.Mkdir(filepathOnlyPath, 0755)
-			if err != nil {
-				fmt.Println(err)
-			}
-		} else {
-			fmt.Println("filepath is exist")
-		}
-	}
-	if runtime.GOOS == "windows" {
-		fmt.Println("Windows OS detected")
-		if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
-
-			err := os.Mkdir(filepathOnlyPath, 0755)
-			if err != nil {
-				fmt.Println(err)
-			}
-		} else {
-			fmt.Println("filepath is exist")
-		}
-	}
-
 	/* 	if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
 	   		//!os.IsNotExist(err) for window
 	   		// os.IsNotExist(err)  for mac
@@ -161,6 +153,7 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 		os.Mkdir(filepathOnlyPath, 0755)
 	}
 	*/
+
 	out, err := os.Create(filepath)
 	if err != nil {
 		//fmt.Println("create")
