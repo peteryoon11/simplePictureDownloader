@@ -109,6 +109,15 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	}
 	if runtime.GOOS == "linux" { // also can be specified to FreeBSD
 		fmt.Println("Unix/Linux type OS detected")
+		if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
+
+			err := os.Mkdir(filepathOnlyPath, 0755)
+			if err != nil {
+				fmt.Println(err)
+			}
+		} else {
+			fmt.Println("filepath is exist")
+		}
 	}
 	if runtime.GOOS == "windows" {
 		fmt.Println("Windows OS detected")
@@ -154,7 +163,7 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	*/
 	out, err := os.Create(filepath)
 	if err != nil {
-		fmt.Println("create")
+		//fmt.Println("create")
 		fmt.Println(err)
 		return nil, count
 	}
