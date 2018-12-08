@@ -41,6 +41,12 @@ func main() {
 func ProcessCore(webpage string, filepath string) {
 
 	//response, err := http.NewRequest("GET", "https://kissme2145.tistory.com/1418?category=634440", nil)
+	if len(webpage) == 0 {
+		webpage = "https://kissme2145.tistory.com/1418?category=634440"
+	}
+	if len(filepath) == 0 {
+		filepath = "temp"
+	}
 	response, err := http.NewRequest("GET", webpage, nil)
 	if err != nil {
 		panic(err)
