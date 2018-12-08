@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"path"
+	"runtime"
 	"strconv"
 	"strings"
 
@@ -72,13 +73,14 @@ func ProcessCore(webpage string, filepath string) {
 		if exists {
 			//	fmt.Println(imgSrc) // 굳이 보여줄 필요는...
 			tempInt := strconv.Itoa(i)
-			i++
+			//i++
 			//DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
-			DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc)
+			_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
 		}
 	})
+	fmt.Println("total download image is ", i)
 }
-func DownloadFile(filepath string, url string) error {
+func DownloadFile(filepath string, url string, count int) (error, int) {
 
 	//strings.Split(filepath, "/")[0]
 
@@ -87,17 +89,47 @@ func DownloadFile(filepath string, url string) error {
 	// 파일 패스는 depth 가 여러개 들어 갈 수 있음
 	//os.IsDir()
 	filepathOnlyPath, _ := path.Split(filepath)
-	if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
-		// path/to/whatever does not exist
-		//fmt.Println("filepathOnlyPath = ", filepathOnlyPath)
-		// 이렇게 여러번 확인 할 필요가 있나.. 싶은데.. 나중에 다시 체크 하자.
-		err := os.Mkdir(filepathOnlyPath, 0755)
-		if err != nil {
-			fmt.Println(err)
+	if runtime.GOOS == "darwin" {
+		fmt.Println("Mac OS detected")
+		if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
+
+			err := os.Mkdir(filepathOnlyPath, 0755)
+			if err != nil {
+				fmt.Println(err)
+			}
+		} else {
+			fmt.Println("filepath is exist")
 		}
-	} else {
-		fmt.Println("filepath is exist")
 	}
+	if runtime.GOOS == "linux" { // also can be specified to FreeBSD
+		fmt.Println("Unix/Linux type OS detected")
+	}
+	if runtime.GOOS == "windows" {
+		fmt.Println("Windows OS detected")
+		if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
+
+			err := os.Mkdir(filepathOnlyPath, 0755)
+			if err != nil {
+				fmt.Println(err)
+			}
+		} else {
+			fmt.Println("filepath is exist")
+		}
+	}
+
+	/* 	if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
+	   		//!os.IsNotExist(err) for window
+	   		// os.IsNotExist(err)  for mac
+	   		// path/to/whatever does not exist
+	   		//fmt.Println("filepathOnlyPath = ", filepathOnlyPath)
+	   		// 이렇게 여러번 확인 할 필요가 있나.. 싶은데.. 나중에 다시 체크 하자.
+	   		err := os.Mkdir(filepathOnlyPath, 0755)
+	   		if err != nil {
+	   			fmt.Println(err)
+	   		}
+	   	} else {
+	   		fmt.Println("filepath is exist")
+	   	} */
 
 	/* 	file, err := os.Open(filepathOnlyPath)
 	   	if err != nil {
@@ -118,7 +150,7 @@ func DownloadFile(filepath string, url string) error {
 	if err != nil {
 		fmt.Println("create")
 		fmt.Println(err)
-		return err
+		return nil, count
 	}
 
 	defer out.Close()
@@ -126,15 +158,16 @@ func DownloadFile(filepath string, url string) error {
 	// Get the data
 	resp, err := http.Get(url)
 	if err != nil {
-		return err
+		return nil, count
 	}
 	defer resp.Body.Close()
 
 	// Write the body to file
 	_, err = io.Copy(out, resp.Body)
 	if err != nil {
-		return err
+		return nil, count
 	}
+	count++
 
-	return nil
+	return nil, count
 }
