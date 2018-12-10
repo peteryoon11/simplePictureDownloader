@@ -9,14 +9,29 @@ import (
 func main() {
 	/*  original web source
 
-	https://kissme2145.tistory.com/1418?category=634440
-	여기서 소스를 추출하고 파싱해서 다운로드를 하도록 하자.
-	1. get 등으로 소스를 가져온다. 이때 header 에 값이 필요 한거 같다. tistory 는 agent 가 비어 있는 부분에 대해서 403 을 주는 거 같다.
-	2. 소스 중에서 img 태그를 가지고 있는 부분을 파싱 한다.
-		a. 파싱 하는 부분에 대한 설계가 필요
-	3. 최종 적으로 위의 부분을 가지고 바이너리 파일에 따른 사용자 편의를 위한 cli 만들기
-		a. 예상 추후 변동 가능
-		simpleDownloader -site=https://site.com -path=./twice/member -parsingType=img
+
+	 */
+
+	/*
+			Date →Mon, 10 Dec 2018 08:42:20 GMT
+		Server →PWS/8.3.2.1
+		X-Px →ms h0-s1336.p61-icn ( h0-s1317.p61-icn), ht h0-s1317.p61-icn.cdngp.net
+		Age →170346
+		Cache-Control →max-age=172800
+		Expires →Mon, 10 Dec 2018 09:23:14 GMT
+		Accept-Ranges →bytes
+		Content-Length →387977
+		Content-Type →image/jpeg
+		Last-Modified →Tue, 10 Apr 2018 01:56:45 GMT
+		Connection →keep-alive
+
+		추출한 이미지 소스의 경로를 get 으로 요청하면 위와 같은 헤더값을  던져 준다.
+		여기서 Content-Type 과
+		Content-Length
+		Accept_Ranges 를 가지고
+		확장자 명이랑 받지 않을 파일을 지정 하도록 하자.
+		받지 않을때는 마지막에 받지 않은 이유  기타 이미지, 작은 이미지 등을 출력해 주도록 하자.
+
 	*/
 	//fileUrl := "https://golangcode.com/images/avatar.jpg"
 	//fileUrl := "https://t1.daumcdn.net/cfile/tistory/99120B3F5ACC19DE0E"
