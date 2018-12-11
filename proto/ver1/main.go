@@ -88,14 +88,17 @@ func ProcessCore(webpage string, filepath string, identify string) {
 		if exists {
 			//	fmt.Println(imgSrc) // 굳이 보여줄 필요는...
 			tempInt := strconv.Itoa(i)
-			//tempFilename := identify + tempInt
+			tempFilename := identify + tempInt
 			//i++
 			//DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
-			_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
-			//_, i = DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i)
+			//_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
+			_, i = DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i)
 		}
 	})
 	fmt.Println("total download image is ", (i + 1))
+}
+func DisplayNumberSort() {
+	// 000 자리로 나오게 설정
 }
 func DownloadFile(filepath string, url string, count int) (error, int) {
 
@@ -177,7 +180,7 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 
 	fmt.Println(strings.Split(resp.Header["Content-Type"][0], "/")[1])
 	//	out, err := os.Create( filepath+"."+ resp.Header["Content-Type"][0], "/")[1]))
-	//out, err := os.Create(filepath + "." + strings.Split(resp.Header["Content-Type"][0], "/")[1])
+	// out, err := os.Create(filepath + "." + strings.Split(resp.Header["Content-Type"][0], "/")[1])
 
 	if Filesize > 24999 {
 		/*
@@ -185,7 +188,8 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 			1000 bytes = 1 kbytes
 			25000 bytes = 25 kbytes
 		*/
-		out, err := os.Create(filepath)
+		//out, err := os.Create(filepath)
+		out, err := os.Create(filepath + "." + strings.Split(resp.Header["Content-Type"][0], "/")[1])
 		if err != nil {
 			//fmt.Println("create")
 			fmt.Println(err)
