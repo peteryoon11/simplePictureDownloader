@@ -174,23 +174,31 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	if nil != err {
 		fmt.Println(err)
 	}
-	if Filesize > 200 {
+	if Filesize > 24999 {
 		/*
 			기준은 25kb 이하만 디폴트로 다운로드 하지 않을거임
 			1000 bytes = 1 kbytes
-			1000 bytes = 1 kbytes
+			25000 bytes = 25 kbytes
 		*/
-		fmt.Println("200 이상")
+		fmt.Println("25000 bytes 이상 / 25kbytes")
+		_, err = io.Copy(out, resp.Body)
+		if err != nil {
+			return nil, count
+		}
+		count++
 	} else {
-		fmt.Println("200 이하")
+		fmt.Println("25000 bytes 미만 / 24kbytes")
+		// 다운로드 받지 않은 url 및 사이즈 보여주자.
+		fmt.Println("url = ", url)
+		fmt.Println("filesize = ", Filesize/1000, " kbytes")
 	}
 
 	// Write the body to file
-	_, err = io.Copy(out, resp.Body)
-	if err != nil {
-		return nil, count
-	}
-	count++
+	/* 	_, err = io.Copy(out, resp.Body)
+	   	if err != nil {
+	   		return nil, count
+	   	}
+	   	count++ */
 
 	return nil, count
 }
