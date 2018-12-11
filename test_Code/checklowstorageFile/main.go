@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"net/http"
 	"os"
@@ -63,7 +64,10 @@ func DownloadFile(filepath string, url string) error {
 	defer resp.Body.Close()
 
 	// Write the body to file
-
+	fmt.Println(resp.Header)
+	for key, item := range resp.Header {
+		fmt.Println("key = ", key, " item = ", item)
+	}
 	_, err = io.Copy(out, resp.Body)
 	if err != nil {
 		return err
