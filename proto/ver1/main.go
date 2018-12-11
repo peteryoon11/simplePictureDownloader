@@ -88,11 +88,11 @@ func ProcessCore(webpage string, filepath string, identify string) {
 		if exists {
 			//	fmt.Println(imgSrc) // 굳이 보여줄 필요는...
 			tempInt := strconv.Itoa(i)
-			tempFilename := identify + tempInt
+			//tempFilename := identify + tempInt
 			//i++
 			//DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
-			//_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
-			_, i = DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i)
+			_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
+			//_, i = DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i)
 		}
 	})
 	fmt.Println("total download image is ", (i + 1))
@@ -177,37 +177,43 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 
 	fmt.Println(strings.Split(resp.Header["Content-Type"][0], "/")[1])
 	//	out, err := os.Create( filepath+"."+ resp.Header["Content-Type"][0], "/")[1]))
-	out, err := os.Create(filepath + "." + strings.Split(resp.Header["Content-Type"][0], "/")[1])
-	if err != nil {
-		//fmt.Println("create")
-		fmt.Println(err)
-		return nil, count
-	}
+	//out, err := os.Create(filepath + "." + strings.Split(resp.Header["Content-Type"][0], "/")[1])
+
 	if Filesize > 24999 {
 		/*
 			기준은 25kb 이하만 디폴트로 다운로드 하지 않을거임
 			1000 bytes = 1 kbytes
 			25000 bytes = 25 kbytes
 		*/
-		//fmt.Println("25000 bytes 이상 / 25kbytes")
+		out, err := os.Create(filepath)
+		if err != nil {
+			//fmt.Println("create")
+			fmt.Println(err)
+			return nil, count
+		}
+		fmt.Println("url = ", url)
+		fmt.Println("filesize = ", Filesize/1000, " kbytes")
+		//	fmt.Println("25000 bytes 이상 / 25kbytes")
 		_, err = io.Copy(out, resp.Body)
 		if err != nil {
 			return nil, count
 		}
 		count++
+		defer out.Close()
 	} else {
 		fmt.Println("25000 bytes 미만 / 24kbytes")
 		// 다운로드 받지 않은 url 및 사이즈 보여주자.
 		fmt.Println("url = ", url)
 		fmt.Println("filesize = ", Filesize/1000, " kbytes")
+		//	return nil, count
 	}
-
+	fmt.Println("현재 count!! ", count)
 	// Write the body to file
 	/* 	_, err = io.Copy(out, resp.Body)
 	   	if err != nil {
 	   		return nil, count
 	   	}
 	   	count++ */
-	defer out.Close()
+
 	return nil, count
 }
