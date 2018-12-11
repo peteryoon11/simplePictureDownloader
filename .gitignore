@@ -10,3 +10,7 @@
 
 # window exe file 
 *.exe
+
+## logging file 
+*.txt 
+*.log
