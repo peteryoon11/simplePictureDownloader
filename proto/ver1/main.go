@@ -83,6 +83,7 @@ func ProcessCore(webpage string, filepath string) {
 			tempInt := strconv.Itoa(i)
 			//i++
 			//DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
+			//_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
 			_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
 		}
 	})

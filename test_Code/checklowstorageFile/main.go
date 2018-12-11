@@ -79,7 +79,10 @@ func DownloadFile(filepath string, url string) error {
 		fmt.Println("단위는 bytes")
 	} else {
 		fmt.Println("단위는 ", resp.Header["Accept-Ranges"][0])
+		// https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Accept-Ranges
+		// 위의 링크에 의하면 단위는 bytes 아니면 none 이라 이 코드는 필요 없을 지도
 	}
+
 	Filesize, err := strconv.Atoi(resp.Header["Content-Length"][0])
 	if nil != err {
 		fmt.Println(err)
@@ -89,7 +92,9 @@ func DownloadFile(filepath string, url string) error {
 	} else {
 		fmt.Println("200 이하")
 	}
-
+	fmt.Println(resp.Header["Content-Type"][0])
+	fmt.Println(strings.Split(resp.Header["Content-Type"][0], "/"))
+	fmt.Println(strings.Split(resp.Header["Content-Type"][0], "/")[1])
 	/* 	if strconv.Itoa(resp.Header["Content-Length"][0]) > 200 {
 	   		fmt.Println("200 이상")
 	   	} else {
