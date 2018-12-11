@@ -71,7 +71,7 @@ func ProcessCore(webpage string, filepath string, identify string) {
 	if err != nil {
 		//panic(err)
 		fmt.Println(err)
-		fmt.Println("인터넷 연결을 확인 하세요")
+		fmt.Println("Check wan connect")
 
 	}
 

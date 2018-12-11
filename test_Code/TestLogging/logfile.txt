@@ -1,0 +1,6 @@
+INFO: 2018/12/11 12:17:06 main.go:27: Test
+INFO: 2018/12/11 12:17:06 main.go:23: End of Program
+INFO: 2018/12/11 12:19:04 main.go:30: Test
+INFO: 2018/12/11 12:19:04 main.go:26: End of Program
+2018/12/11 12:21:45 Test
+2018/12/11 12:21:45 End of Program
