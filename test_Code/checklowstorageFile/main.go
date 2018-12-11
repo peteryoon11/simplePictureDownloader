@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"os"
 	"strconv"
+	"strings"
 )
 
 func main() {
@@ -73,6 +74,11 @@ func DownloadFile(filepath string, url string) error {
 	for key, item := range resp.Header["Content-Length"] {
 		fmt.Println("key = ", key, " item = ", item)
 
+	}
+	if strings.EqualFold(resp.Header["Accept-Ranges"][0], "bytes") {
+		fmt.Println("단위는 bytes")
+	} else {
+		fmt.Println("단위는 ", resp.Header["Accept-Ranges"][0])
 	}
 	Filesize, err := strconv.Atoi(resp.Header["Content-Length"][0])
 	if nil != err {

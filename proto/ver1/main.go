@@ -170,6 +170,21 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	}
 	defer resp.Body.Close()
 
+	Filesize, err := strconv.Atoi(resp.Header["Content-Length"][0])
+	if nil != err {
+		fmt.Println(err)
+	}
+	if Filesize > 200 {
+		/*
+			기준은 25kb 이하만 디폴트로 다운로드 하지 않을거임
+			1000 bytes = 1 kbytes
+			1000 bytes = 1 kbytes
+		*/
+		fmt.Println("200 이상")
+	} else {
+		fmt.Println("200 이하")
+	}
+
 	// Write the body to file
 	_, err = io.Copy(out, resp.Body)
 	if err != nil {
