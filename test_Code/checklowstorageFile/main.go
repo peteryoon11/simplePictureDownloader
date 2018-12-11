@@ -5,6 +5,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"strconv"
 )
 
 func main() {
@@ -68,6 +69,26 @@ func DownloadFile(filepath string, url string) error {
 	for key, item := range resp.Header {
 		fmt.Println("key = ", key, " item = ", item)
 	}
+	fmt.Println("=============================")
+	for key, item := range resp.Header["Content-Length"] {
+		fmt.Println("key = ", key, " item = ", item)
+
+	}
+	Filesize, err := strconv.Atoi(resp.Header["Content-Length"][0])
+	if nil != err {
+		fmt.Println(err)
+	}
+	if Filesize > 200 {
+		fmt.Println("200 이상")
+	} else {
+		fmt.Println("200 이하")
+	}
+
+	/* 	if strconv.Itoa(resp.Header["Content-Length"][0]) > 200 {
+	   		fmt.Println("200 이상")
+	   	} else {
+	   		fmt.Println("200 이하")
+	   	} */
 	_, err = io.Copy(out, resp.Body)
 	if err != nil {
 		return err
