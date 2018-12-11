@@ -71,6 +71,7 @@ func ProcessCore(webpage string, filepath string, identify string) {
 	if err != nil {
 		//panic(err)
 		fmt.Println(err)
+		fmt.Println("인터넷 연결을 확인 하세요")
 
 	}
 
@@ -87,7 +88,8 @@ func ProcessCore(webpage string, filepath string, identify string) {
 		imgSrc, exists := element.Attr("src")
 		if exists {
 			//	fmt.Println(imgSrc) // 굳이 보여줄 필요는...
-			tempInt := strconv.Itoa(i)
+			//tempInt := strconv.Itoa(i)
+			tempInt := DisplayNumberSort(i)
 			tempFilename := identify + tempInt
 			//i++
 			//DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
@@ -97,8 +99,21 @@ func ProcessCore(webpage string, filepath string, identify string) {
 	})
 	fmt.Println("total download image is ", (i + 1))
 }
-func DisplayNumberSort() {
+func DisplayNumberSort(givennumber int) string {
 	// 000 자리로 나오게 설정
+	// ex) 001 002 ~~ 010 011 ~~ 100 101 ~~ 201 202
+	var result string
+	if givennumber < 10 {
+		tempInt := strconv.Itoa(givennumber)
+		result = "00" + tempInt
+	} else if (givennumber >= 10) && (givennumber < 100) {
+		tempInt := strconv.Itoa(givennumber)
+		result = "0" + tempInt
+	} else {
+		result = strconv.Itoa(givennumber)
+	}
+	return result
+
 }
 func DownloadFile(filepath string, url string, count int) (error, int) {
 
