@@ -1,5 +1,12 @@
 ## ignore test 
+## image file 
+*.jpeg
 *.jpg
 *.gif
+*.png
+
+## temp file ignore
 ./temp/*
+
+# window exe file 
 *.exe

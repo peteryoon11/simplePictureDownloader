@@ -21,6 +21,7 @@ func main() {
 	var (
 		webpageAddress string
 		filepath       string
+		identify       string
 	)
 	for _, item := range os.Args[1:] {
 		//fmt.Println(item)
@@ -30,15 +31,18 @@ func main() {
 		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "path") {
 			filepath = strings.Split(item, "=")[1]
 		}
+		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "identi") {
+			identify = strings.Split(item, "=")[1]
+		}
 	}
 	//fmt.Println("web page!!", webpageAddress)
 	//fmt.Println("path!!", filepath)
 	// 필요한 부분은 웹페이지 하나 일단
 	//	ProcessCore()
-	ProcessCore(webpageAddress, filepath)
+	ProcessCore(webpageAddress, filepath, identify)
 
 }
-func ProcessCore(webpage string, filepath string) {
+func ProcessCore(webpage string, filepath string, identify string) {
 
 	//response, err := http.NewRequest("GET", "https://kissme2145.tistory.com/1418?category=634440", nil)
 	if len(webpage) == 0 {
@@ -46,6 +50,9 @@ func ProcessCore(webpage string, filepath string) {
 	}
 	if len(filepath) == 0 {
 		filepath = "temp"
+	}
+	if len(identify) == 0 {
+		identify = "image"
 	}
 	response, err := http.NewRequest("GET", webpage, nil)
 	if err != nil {
@@ -81,13 +88,14 @@ func ProcessCore(webpage string, filepath string) {
 		if exists {
 			//	fmt.Println(imgSrc) // 굳이 보여줄 필요는...
 			tempInt := strconv.Itoa(i)
+			tempFilename := identify + tempInt
 			//i++
 			//DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
 			//_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
-			_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
+			_, i = DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i)
 		}
 	})
-	fmt.Println("total download image is ", i)
+	fmt.Println("total download image is ", (i + 1))
 }
 func DownloadFile(filepath string, url string, count int) (error, int) {
 
@@ -155,15 +163,6 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	}
 	*/
 
-	out, err := os.Create(filepath)
-	if err != nil {
-		//fmt.Println("create")
-		fmt.Println(err)
-		return nil, count
-	}
-
-	defer out.Close()
-
 	// Get the data
 	resp, err := http.Get(url)
 	if err != nil {
@@ -175,13 +174,22 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	if nil != err {
 		fmt.Println(err)
 	}
+
+	fmt.Println(strings.Split(resp.Header["Content-Type"][0], "/")[1])
+	//	out, err := os.Create( filepath+"."+ resp.Header["Content-Type"][0], "/")[1]))
+	out, err := os.Create(filepath + "." + strings.Split(resp.Header["Content-Type"][0], "/")[1])
+	if err != nil {
+		//fmt.Println("create")
+		fmt.Println(err)
+		return nil, count
+	}
 	if Filesize > 24999 {
 		/*
 			기준은 25kb 이하만 디폴트로 다운로드 하지 않을거임
 			1000 bytes = 1 kbytes
 			25000 bytes = 25 kbytes
 		*/
-		fmt.Println("25000 bytes 이상 / 25kbytes")
+		//fmt.Println("25000 bytes 이상 / 25kbytes")
 		_, err = io.Copy(out, resp.Body)
 		if err != nil {
 			return nil, count
@@ -200,6 +208,6 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	   		return nil, count
 	   	}
 	   	count++ */
-
+	defer out.Close()
 	return nil, count
 }
