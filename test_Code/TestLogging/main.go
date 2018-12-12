@@ -23,6 +23,16 @@ func main() {
 	p(diff * (-1))
 	//TestTimePrint()
 }
+
+func statusUpdate() string { return "" }
+
+func TestCode() {
+	c := time.Tick(1 * time.Minute)
+	for now := range c {
+		fmt.Printf("%v %s\n", now, statusUpdate())
+	}
+}
+
 func LoggingCore() {
 	// 로그파일 오픈
 	/* 	fpLog, err := os.OpenFile("logfile.txt", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
@@ -93,6 +103,6 @@ func TestTimePrint() {
 	p(then.Add(-diff))
 }
 func run() {
-	//myLogger.Print("Test")
+	myLogger.Print("Test mylogger")
 	log.Print("Test")
 }
