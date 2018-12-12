@@ -10,9 +10,12 @@ import (
 	"runtime"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/PuerkitoBio/goquery"
 )
+
+var workerRecorder *log.Logger //
 
 func main() {
 	// Make HTTP request
@@ -22,7 +25,9 @@ func main() {
 		webpageAddress string
 		filepath       string
 		identify       string
+		loggerLocate   string
 	)
+	startTime := time.Now() // 처음부터 끝까지 걸린 시간을 측정 하기 위한 시작시간 체크
 	for _, item := range os.Args[1:] {
 		//fmt.Println(item)
 		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "site") {
@@ -34,15 +39,39 @@ func main() {
 		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "identi") {
 			identify = strings.Split(item, "=")[1]
 		}
+		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "logger") {
+			// logger 파일의 위치
+			loggerLocate = strings.Split(item, "=")[1]
+		}
 	}
 	//fmt.Println("web page!!", webpageAddress)
 	//fmt.Println("path!!", filepath)
 	// 필요한 부분은 웹페이지 하나 일단
 	//	ProcessCore()
-	ProcessCore(webpageAddress, filepath, identify)
+	LoggerAgent(loggerLocate)
+	ProcessCore(webpageAddress, filepath, identify, loggerLocate, startTime)
 
 }
-func ProcessCore(webpage string, filepath string, identify string) {
+func LoggerAgent(loggerLocate string) {
+	if len(loggerLocate) == 0 {
+		loggerLocate = "logs"
+	}
+	// 나중에 여기에 경로가 있는지 판별하고 만드는 부분 모듈화 해서 호출 하기
+	// 지금은 테스트 니까 그냥 만들어 두고 쓰자.
+	// 로그파일이 하루 지났으면 이전 파일을 날짜붙여서 백업하고 새로 만들어서
+	// 로깅을 시작 할까?
+	fpLog, err := os.OpenFile("./"+loggerLocate+"/logfile.txt", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	if err != nil {
+		//panic(err)
+		fmt.Println(err)
+	}
+	defer fpLog.Close()
+	multiWriter := io.MultiWriter(fpLog, os.Stdout)
+	log.SetOutput(multiWriter)
+	workerRecorder = log.New(fpLog, "INFO: ", log.Ldate|log.Ltime|log.Lshortfile)
+
+}
+func ProcessCore(webpage string, filepath string, identify string, loggerLocate string, startTime time.Time) {
 
 	//response, err := http.NewRequest("GET", "https://kissme2145.tistory.com/1418?category=634440", nil)
 	if len(webpage) == 0 {
@@ -59,6 +88,13 @@ func ProcessCore(webpage string, filepath string, identify string) {
 		//panic(err)
 		fmt.Println(err)
 	}
+	workerRecorder.Println("Start SimlePicDownloader")
+	workerRecorder.Println("from ", webpage)
+	workerRecorder.Println("to ", filepath) // 여기는 절대 경로로 보여주는걸로 바꿔주자.
+	workerRecorder.Println("filename base is  ", identify)
+	workerRecorder.Println("logfile will locate  ", loggerLocate)
+
+	// 로그 파일 위치를 보여주자.
 
 	//필요시 헤더 추가 가능
 	response.Header.Add("User-Agent", "Crawler")
@@ -71,8 +107,8 @@ func ProcessCore(webpage string, filepath string, identify string) {
 	if err != nil {
 		//panic(err)
 		fmt.Println(err)
-		fmt.Println("Check wan connect")
-
+		fmt.Println("Check WAN connect")
+		return
 	}
 
 	defer resp.Body.Close()
@@ -97,6 +133,8 @@ func ProcessCore(webpage string, filepath string, identify string) {
 			_, i = DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i)
 		}
 	})
+	diff := startTime.Sub(time.Now())
+	fmt.Println("total spend time is ", (diff * (-1)))
 	fmt.Println("total download image is ", (i + 1))
 }
 func DisplayNumberSort(givennumber int) string {
