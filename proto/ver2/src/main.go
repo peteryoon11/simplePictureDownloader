@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -72,7 +71,8 @@ func LoggerAgent(loggerLocate string) {
 	fpLog, err = os.OpenFile("./"+loggerLocate+"/logfile.txt", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		//panic(err)
-		fmt.Println(err)
+		//fmt.Println(err)
+		workerRecorder.Println(err)
 	}
 
 	//defer fpLog.Close()
@@ -104,9 +104,10 @@ func ProcessCore(webpage string, filepath string, identify string, loggerLocate 
 	response, err := http.NewRequest("GET", webpage, nil)
 	if err != nil {
 		//panic(err)
-		fmt.Println(err)
+		//fmt.Println(err)
+		workerRecorder.Println(err)
 	}
-	workerRecorder.Println("Start SimlePicDownloader")
+	workerRecorder.Println("Start SimlePicDownloader!!!!!!!!!!!")
 	workerRecorder.Println("from ", webpage)
 	workerRecorder.Println("to ", filepath) // 여기는 절대 경로로 보여주는걸로 바꿔주자.
 	workerRecorder.Println("filename base is  ", identify)
@@ -124,8 +125,9 @@ func ProcessCore(webpage string, filepath string, identify string, loggerLocate 
 	resp, err := client.Do(response)
 	if err != nil {
 		//panic(err)
-		fmt.Println(err)
-		fmt.Println("Check WAN connect")
+		//fmt.Println(err)
+		//	fmt.Println("Check WAN connect")
+		workerRecorder.Println("Check WAN connect")
 		return
 	}
 
@@ -152,8 +154,10 @@ func ProcessCore(webpage string, filepath string, identify string, loggerLocate 
 		}
 	})
 	diff := startTime.Sub(time.Now())
-	fmt.Println("total spend time is ", (diff * (-1)))
-	fmt.Println("total download image is ", (i + 1))
+	/* fmt.Println("total spend time is ", (diff * (-1)))
+	fmt.Println("total download image is ", (i + 1)) */
+	workerRecorder.Println("total spend time is ", (diff * (-1)))
+	workerRecorder.Println("total download image is ", (i + 1))
 }
 func DisplayNumberSort(givennumber int) string {
 	// 000 자리로 나오게 설정
@@ -179,31 +183,43 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	//strins.filepath.IsDir()
 	// 파일 패스는 depth 가 여러개 들어 갈 수 있음
 	//os.IsDir()
+	/*
+		파일을 만드려고 하면 그때 파일이 없어서 or 패스가 없어서 오류가 생기면
+		해당 시점에 그 경로를 만드는 코드를 만들자.
+		이거는 지금 이미지 저장 부분이나 로그 파일을 만드는 부분에 추가 해서
+		쓰면 코드 재 사용 성이나 나중에 수정 할때나 편리 할듯
+	*/
 	filepathOnlyPath, _ := path.Split(filepath)
 	if count == 0 {
 
 		if runtime.GOOS == "linux" || runtime.GOOS == "darwin" { // also can be specified to FreeBSD
-			fmt.Println("Unix/Linux or Mac OS type OS detected")
+			//fmt.Println("Unix/Linux or Mac OS type OS detected")
+			workerRecorder.Println("Unix/Linux or Mac OS type OS detected")
 			if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
 
 				err := os.Mkdir(filepathOnlyPath, 0755)
 				if err != nil {
-					fmt.Println(err)
+					workerRecorder.Println(err)
+					//fmt.Println(err)
 				}
 			} else {
-				fmt.Println("filepath is exist")
+				workerRecorder.Println("filepath is exist")
+				//fmt.Println("filepath is exist")
 			}
 		}
 		if runtime.GOOS == "windows" {
-			fmt.Println("Windows OS detected")
+			//fmt.Println("Windows OS detected")
+			workerRecorder.Println("Windows OS detected")
 			if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
 
 				err := os.Mkdir(filepathOnlyPath, 0755)
 				if err != nil {
-					fmt.Println(err)
+					//fmt.Println(err)
+					workerRecorder.Println(err)
 				}
 			} else {
-				fmt.Println("filepath is exist")
+				workerRecorder.Println("filepath is exist")
+				//fmt.Println("filepath is exist")
 			}
 		}
 	}
@@ -240,16 +256,19 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 	// Get the data
 	resp, err := http.Get(url)
 	if err != nil {
+		workerRecorder.Println(err)
 		return nil, count
 	}
 	defer resp.Body.Close()
 
 	Filesize, err := strconv.Atoi(resp.Header["Content-Length"][0])
 	if nil != err {
-		fmt.Println(err)
+		workerRecorder.Println(err)
+		return nil, count
+		//fmt.Println(err)
 	}
 
-	fmt.Println(strings.Split(resp.Header["Content-Type"][0], "/")[1])
+	//fmt.Println(strings.Split(resp.Header["Content-Type"][0], "/")[1])
 	//	out, err := os.Create( filepath+"."+ resp.Header["Content-Type"][0], "/")[1]))
 	// out, err := os.Create(filepath + "." + strings.Split(resp.Header["Content-Type"][0], "/")[1])
 
@@ -263,26 +282,36 @@ func DownloadFile(filepath string, url string, count int) (error, int) {
 		out, err := os.Create(filepath + "." + strings.Split(resp.Header["Content-Type"][0], "/")[1])
 		if err != nil {
 			//fmt.Println("create")
-			fmt.Println(err)
+			//fmt.Println(err)
+			workerRecorder.Println(err)
+
 			return nil, count
 		}
-		fmt.Println("url = ", url)
+		/* fmt.Println("url = ", url)
 		fmt.Println("filesize = ", Filesize/1000, " kbytes")
+		*/
+		//workerRecorder.Println("url = ", url)
+		//workerRecorder.Println("filesize = ", Filesize/1000, " kbytes")
 		//	fmt.Println("25000 bytes 이상 / 25kbytes")
 		_, err = io.Copy(out, resp.Body)
 		if err != nil {
+			workerRecorder.Println(err)
 			return nil, count
 		}
 		count++
 		defer out.Close()
 	} else {
-		fmt.Println("25000 bytes 미만 / 24kbytes")
+		//fmt.Println("25000 bytes 미만 / 24kbytes")
+		workerRecorder.Println("25000 bytes 미만 / 24kbytes")
 		// 다운로드 받지 않은 url 및 사이즈 보여주자.
-		fmt.Println("url = ", url)
-		fmt.Println("filesize = ", Filesize/1000, " kbytes")
+		//fmt.Println("url = ", url)
+		workerRecorder.Println("url = ", url)
+		//fmt.Println("filesize = ", Filesize/1000, " kbytes")
+		workerRecorder.Println("filesize = ", Filesize/1000, " kbytes")
 		//	return nil, count
 	}
-	fmt.Println("현재 count!! ", count)
+	//	workerRecorder.Println("현재 count!! ", count)
+	//fmt.Println("현재 count!! ", count)
 	// Write the body to file
 	/* 	_, err = io.Copy(out, resp.Body)
 	   	if err != nil {
