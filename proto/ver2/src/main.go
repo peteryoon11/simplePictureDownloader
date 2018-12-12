@@ -94,6 +94,7 @@ func ProcessCore(webpage string, filepath string, identify string, loggerLocate 
 	//response, err := http.NewRequest("GET", "https://kissme2145.tistory.com/1418?category=634440", nil)
 	if len(webpage) == 0 {
 		webpage = "https://kissme2145.tistory.com/1418?category=634440"
+		//webpage = "https://comic.naver.com/webtoon/detail.nhn?titleId=675554&no=683"
 	}
 	if len(filepath) == 0 {
 		filepath = "temp"
@@ -116,6 +117,7 @@ func ProcessCore(webpage string, filepath string, identify string, loggerLocate 
 	// 로그 파일 위치를 보여주자.
 
 	//필요시 헤더 추가 가능
+	//response.Header.Add("Referer", "Crawler") // 이전 사이트의 정보?
 	response.Header.Add("User-Agent", "Crawler")
 	//response, err := http.Get("http://localhost:8090/getMyBook")
 	if err != nil {

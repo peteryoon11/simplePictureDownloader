@@ -20,8 +20,8 @@ func main() {
 	*/
 	//fileUrl := "https://golangcode.com/images/avatar.jpg"
 	//fileUrl := "https://t1.daumcdn.net/cfile/tistory/99120B3F5ACC19DE0E"
-	fileUrl := "https://t1.daumcdn.net/cfile/tistory/994700375BFA409B2A" // gif
-
+	//fileUrl := "https://t1.daumcdn.net/cfile/tistory/994700375BFA409B2A" // gif
+	fileUrl := "https://image-comic.pstatic.net/webtoon/675554/683/20181211180545_c979a1e08a3f14b0703fc9b13e302465_IMAG01_1.jpg"
 	err := DownloadFile("./temp/avatar3.gif", fileUrl)
 	if err != nil {
 		panic(err)
