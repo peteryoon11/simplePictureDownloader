@@ -68,7 +68,7 @@ func LoggerAgent(loggerLocate string) {
 	// 로그파일이 하루 지났으면 이전 파일을 날짜붙여서 백업하고 새로 만들어서
 	// 로깅을 시작 할까?
 
-	fpLog, err = os.OpenFile("./"+loggerLocate+"/logfile.txt", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	fpLog, err = os.OpenFile("./"+loggerLocate+"/logfile.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		//panic(err)
 		//fmt.Println(err)
