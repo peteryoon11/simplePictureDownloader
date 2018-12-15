@@ -14,13 +14,13 @@ func main() {
 	LoggingCore()
 	p := fmt.Println
 	now := time.Now()
-	p(now)
+	p(now, "now")
 	//time.Sleep(100 * time.Millisecond)
 	time.Sleep(2 * time.Second)
 
-	diff := now.Sub(time.Now())
-	p(diff)
-	p(diff * (-1))
+	//diff := now.Sub(time.Now())
+	//p(diff)
+	//p(diff * (-1))
 	//TestTimePrint()
 }
 
