@@ -1,0 +1,5 @@
+package FileControll
+
+func FuncTest() {
+
+}
