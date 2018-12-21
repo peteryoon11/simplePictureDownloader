@@ -29,7 +29,7 @@ func LoggerAgent(loggerLocate string) {
 	fpLog, err = os.OpenFile("./"+loggerLocate+"/logfile.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		//panic(err)
-		//fmt.Println(err)
+		fmt.Println(err)
 		log.Println(err)
 	}
 
