@@ -7,14 +7,16 @@ import (
 	"os"
 )
 
+var fpLog *os.File
+
 func TestFunc() {
 
 }
-func LoggerEnd() {
+func LoggerEnd(workerRecorder *log.Logger) {
 	fpLog.Close() // 우선 여기서 종료 하는데.. 추후에 문제가 생기지 않을까? 아닌가?
 }
 
-func LoggerAgent(loggerLocate string) {
+func LoggerAgent(loggerLocate string, workerRecorder *log.Logger) {
 	var (
 		err error
 	)
@@ -26,7 +28,7 @@ func LoggerAgent(loggerLocate string) {
 	// 로그파일이 하루 지났으면 이전 파일을 날짜붙여서 백업하고 새로 만들어서
 	// 로깅을 시작 할까?
 
-	fpLog, err = os.OpenFile("./"+loggerLocate+"/logfile.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	fpLog, err := os.OpenFile("./"+loggerLocate+"/logfile.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		//panic(err)
 		fmt.Println(err)
