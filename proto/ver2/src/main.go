@@ -12,14 +12,51 @@ import (
 	"strings"
 	"time"
 
+	"../pkg/CustomLogger"
 	"github.com/PuerkitoBio/goquery"
 )
 
 //var log *log.Logger //
 var workerRecorder *log.Logger
-var fpLog *os.File
+
+//var fpLog *os.File
 
 func main() {
+
+	// 프로그램 시작 시에 값을 초기화 하는 부분
+	initFunc(os.Args[1:])
+
+}
+func initFunc(startWord []string) {
+	var (
+		webpageAddress string
+		filepath       string
+		identify       string
+		loggerLocate   string
+	)
+	startTime := time.Now() // 처음부터 끝까지 걸린 시간을 측정 하기 위한 시작시간 체크
+
+	for _, item := range os.Args[1:] {
+		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "site") {
+			webpageAddress = strings.Split(item, "=")[1]
+		}
+		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "path") {
+			filepath = strings.Split(item, "=")[1]
+		}
+		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "identi") {
+			identify = strings.Split(item, "=")[1]
+		}
+		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "logger") {
+			// logger 파일의 위치
+			loggerLocate = strings.Split(item, "=")[1]
+		}
+	}
+	CustomLogger.LoggerAgent(loggerLocate)
+	ProcessCore(webpageAddress, filepath, identify, loggerLocate, startTime)
+	LoggerEnd()
+
+}
+func tttt() {
 	// Make HTTP request
 	//response, err := http.Get("https://www.devdungeon.com")
 	//fmt.Println(os.Args[1:])
@@ -30,6 +67,7 @@ func main() {
 		loggerLocate   string
 	)
 	startTime := time.Now() // 처음부터 끝까지 걸린 시간을 측정 하기 위한 시작시간 체크
+
 	for _, item := range os.Args[1:] {
 		//fmt.Println(item)
 		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "site") {
@@ -55,9 +93,7 @@ func main() {
 	LoggerEnd()
 
 }
-func initFunc() {
 
-}
 func LoggerEnd() {
 	fpLog.Close() // 우선 여기서 종료 하는데.. 추후에 문제가 생기지 않을까? 아닌가?
 }
