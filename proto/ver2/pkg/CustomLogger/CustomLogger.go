@@ -9,9 +9,6 @@ import (
 
 var fpLog *os.File
 
-func TestFunc() {
-
-}
 func LoggerEnd(workerRecorder *log.Logger) {
 	fpLog.Close() // 우선 여기서 종료 하는데.. 추후에 문제가 생기지 않을까? 아닌가?
 }

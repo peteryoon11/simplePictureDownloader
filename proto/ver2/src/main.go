@@ -1,25 +1,16 @@
 package main
 
 import (
-	"io"
 	"log"
 	"net/http"
 	"os"
-	"path"
-	"runtime"
-	"strconv"
 	"strings"
 	"time"
 
 	"../pkg/CustomLogger"
-	"../pkg/StructureModule"
+	"../pkg/FileControll"
 	"github.com/PuerkitoBio/goquery"
 )
-
-//var log *log.Logger //
-//var workerRecorder *log.Logger
-
-//var fpLog *os.File
 
 func main() {
 
@@ -67,9 +58,9 @@ func initFunc(startWord []string) {
 	if len(loggerLocate) == 0 {
 		loggerLocate = "logs"
 	}
-	//var workerRecorder *log.Logger
+
 	workerRecorder = CustomLogger.LoggerAgent(loggerLocate, workerRecorder)
-	//
+
 	workerRecorder.Println("Start SimlePicDownloader!!!!!!!!!!!")
 	workerRecorder.Println("from ", webpageAddress)
 	workerRecorder.Println("to ", filepath) // 여기는 절대 경로로 보여주는걸로 바꿔주자.
@@ -86,87 +77,27 @@ func initFunc(startWord []string) {
 	//fmt.Println(processCoreObject.webpageAddress)
 	//processCoreObject[0]
 
-	processCoreObject := StructureModule.ProcessCoreMandantory{webpageAddress, filepath, identify, loggerLocate, startTime, workerRecorder}
+	//processCoreObject := StructureModule.ProcessCoreMandantory{webpageAddress, filepath, identify, loggerLocate, startTime, workerRecorder}
 	ProcessCore(webpageAddress, filepath, identify, loggerLocate, startTime, workerRecorder)
 	CustomLogger.LoggerEnd(workerRecorder)
 
 }
 
-/* func LoggerEnd() {
-	fpLog.Close() // 우선 여기서 종료 하는데.. 추후에 문제가 생기지 않을까? 아닌가?
-}
-func LoggerAgent(loggerLocate string) {
-	var (
-		err error
-	)
-	if len(loggerLocate) == 0 {
-		loggerLocate = "logs"
-	}
-	// 나중에 여기에 경로가 있는지 판별하고 만드는 부분 모듈화 해서 호출 하기
-	// 지금은 테스트 니까 그냥 만들어 두고 쓰자.
-	// 로그파일이 하루 지났으면 이전 파일을 날짜붙여서 백업하고 새로 만들어서
-	// 로깅을 시작 할까?
-
-	fpLog, err = os.OpenFile("./"+loggerLocate+"/logfile.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
-	if err != nil {
-		//panic(err)
-		//fmt.Println(err)
-		log.Println(err)
-	}
-
-	//defer fpLog.Close()
-
-	multiWriter := io.MultiWriter(fpLog, os.Stdout)
-	log.SetOutput(multiWriter)
-	//log = log.New(fpLog, "INFO: ", log.Ldate|log.Ltime|log.Lshortfile)
-	workerRecorder = log.New(fpLog, "INFO: ", log.Ldate|log.Ltime|log.Lshortfile)
-	workerRecorder.SetOutput(multiWriter)
-	fmt.Println("test")
-
-} */
 func ProcessCore(webpage string, filepath string, identify string, loggerLocate string, startTime time.Time, workerRecorder *log.Logger) {
-
-	// 초기화는 initfunc 에서 하자.
-	/* 	if len(webpage) == 0 {
-	   		webpage = "https://kissme2145.tistory.com/1418?category=634440"
-	   		//webpage = "https://comic.naver.com/webtoon/detail.nhn?titleId=675554&no=683"
-	   		// 나중에 네이버 웹툰 페이지도 추가해 보자.
-	   	}
-	   	if len(filepath) == 0 {
-	   		filepath = "temp"
-	   	}
-	   	if len(identify) == 0 {
-	   		identify = "image"
-	   	} */
 
 	response, err := http.NewRequest("GET", webpage, nil)
 	if err != nil {
-		//panic(err)
-		//fmt.Println(err)
 		workerRecorder.Println(err)
 	}
 
-	/* workerRecorder.Println("Start SimlePicDownloader!!!!!!!!!!!")
-	workerRecorder.Println("from ", webpage)
-	workerRecorder.Println("to ", filepath) // 여기는 절대 경로로 보여주는걸로 바꿔주자.
-	workerRecorder.Println("filename base is  ", identify)
-	workerRecorder.Println("logfile will locate  ", loggerLocate)
-	*/
-	// 로그 파일 위치를 보여주자.
-
-	//필요시 헤더 추가 가능
-	//response.Header.Add("Referer", "Crawler") // 이전 사이트의 정보?
 	response.Header.Add("User-Agent", "Crawler")
-	//response, err := http.Get("http://localhost:8090/getMyBook")
+
 	if err != nil {
 		workerRecorder.Fatal(err)
 	}
 	client := &http.Client{}
 	resp, err := client.Do(response)
 	if err != nil {
-		//panic(err)
-		//fmt.Println(err)
-		//	fmt.Println("Check WAN connect")
 		workerRecorder.Println("Check WAN connect")
 		return
 	}
@@ -178,153 +109,16 @@ func ProcessCore(webpage string, filepath string, identify string, loggerLocate 
 		workerRecorder.Fatal("Error loading HTTP response body. ", err)
 	}
 
-	// Find and print image URLs
 	i := 0
 	document.Find("img").Each(func(index int, element *goquery.Selection) {
 		imgSrc, exists := element.Attr("src")
 		if exists {
-			//	fmt.Println(imgSrc) // 굳이 보여줄 필요는...
-			//tempInt := strconv.Itoa(i)
-			tempInt := DisplayNumberSort(i)
+			tempInt := FileControll.DisplayNumberSort(i)
 			tempFilename := identify + tempInt
-			//i++
-			//DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
-			//_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
-			_, i = DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i, workerRecorder)
+			_, i = FileControll.DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i, workerRecorder)
 		}
 	})
 	diff := startTime.Sub(time.Now())
-	/* fmt.Println("total spend time is ", (diff * (-1)))
-	fmt.Println("total download image is ", (i + 1)) */
 	workerRecorder.Println("total spend time is ", (diff * (-1)))
 	workerRecorder.Println("total download image is ", (i + 1))
-}
-func DisplayNumberSort(givennumber int) string {
-	// 000 자리로 나오게 설정
-	// ex) 001 002 ~~ 010 011 ~~ 100 101 ~~ 201 202
-	var result string
-	if givennumber < 10 {
-		tempInt := strconv.Itoa(givennumber)
-		result = "00" + tempInt
-	} else if (givennumber >= 10) && (givennumber < 100) {
-		tempInt := strconv.Itoa(givennumber)
-		result = "0" + tempInt
-	} else {
-		result = strconv.Itoa(givennumber)
-	}
-	return result
-
-}
-func DownloadFile(filepath string, url string, count int, workerRecorder *log.Logger) (error, int) {
-
-	//strings.Split(filepath, "/")[0]
-
-	// Create the file
-	//strins.filepath.IsDir()
-	// 파일 패스는 depth 가 여러개 들어 갈 수 있음
-	//os.IsDir()
-	/*
-		파일을 만드려고 하면 그때 파일이 없어서 or 패스가 없어서 오류가 생기면
-		해당 시점에 그 경로를 만드는 코드를 만들자.
-		이거는 지금 이미지 저장 부분이나 로그 파일을 만드는 부분에 추가 해서
-		쓰면 코드 재 사용 성이나 나중에 수정 할때나 편리 할듯
-	*/
-	filepathOnlyPath, _ := path.Split(filepath)
-	if count == 0 {
-
-		if runtime.GOOS == "linux" || runtime.GOOS == "darwin" { // also can be specified to FreeBSD
-
-			workerRecorder.Println("Unix/Linux or Mac OS type OS detected")
-			if _, err := os.Stat(filepathOnlyPath); os.IsNotExist(err) {
-
-				err := os.Mkdir(filepathOnlyPath, 0755)
-				if err != nil {
-					workerRecorder.Println(err)
-
-				}
-			} else {
-				workerRecorder.Println("filepath is exist")
-
-			}
-		}
-		if runtime.GOOS == "windows" {
-
-			workerRecorder.Println("Windows OS detected")
-			if _, err := os.Stat(filepathOnlyPath); !os.IsNotExist(err) {
-
-				err := os.Mkdir(filepathOnlyPath, 0755)
-				if err != nil {
-
-					workerRecorder.Println(err)
-				}
-			} else {
-				workerRecorder.Println("filepath is exist")
-
-			}
-		}
-	}
-
-	// Get the data
-	resp, err := http.Get(url)
-	if err != nil {
-		workerRecorder.Println(err)
-		return nil, count
-	}
-	defer resp.Body.Close()
-
-	Filesize, err := strconv.Atoi(resp.Header["Content-Length"][0])
-	if nil != err {
-		workerRecorder.Println(err)
-		return nil, count
-		//fmt.Println(err)
-	}
-
-	if Filesize > 24999 {
-		/*
-			기준은 25kb 이하만 디폴트로 다운로드 하지 않을거임
-			1000 bytes = 1 kbytes
-			25000 bytes = 25 kbytes
-		*/
-		//out, err := os.Create(filepath)
-		out, err := os.Create(filepath + "." + strings.Split(resp.Header["Content-Type"][0], "/")[1])
-		if err != nil {
-			//fmt.Println("create")
-			//fmt.Println(err)
-			workerRecorder.Println(err)
-
-			return nil, count
-		}
-		/* fmt.Println("url = ", url)
-		fmt.Println("filesize = ", Filesize/1000, " kbytes")
-		*/
-		//log.Println("url = ", url)
-		//log.Println("filesize = ", Filesize/1000, " kbytes")
-		//	fmt.Println("25000 bytes 이상 / 25kbytes")
-		_, err = io.Copy(out, resp.Body)
-		if err != nil {
-			workerRecorder.Println(err)
-			return nil, count
-		}
-		count++
-		defer out.Close()
-	} else {
-		//fmt.Println("25000 bytes 미만 / 24kbytes")
-		workerRecorder.Println("25000 bytes 미만 / 24kbytes")
-		// 다운로드 받지 않은 url 및 사이즈 보여주자.
-		//fmt.Println("url = ", url)
-		workerRecorder.Println("url = ", url)
-		//fmt.Println("filesize = ", Filesize/1000, " kbytes")
-		workerRecorder.Println("filesize = ", Filesize/1000, " kbytes")
-		//	return nil, count
-	}
-	//	log.Println("현재 count!! ", count)
-	//fmt.Println("현재 count!! ", count)
-	// Write the body to file
-	/* 	_, err = io.Copy(out, resp.Body)
-	   	if err != nil {
-	   		return nil, count
-	   	}
-	   	count++ */
-
-	return nil, count
 }
