@@ -16,13 +16,14 @@ func LoggerEnd(workerRecorder *log.Logger) {
 	fpLog.Close() // 우선 여기서 종료 하는데.. 추후에 문제가 생기지 않을까? 아닌가?
 }
 
-func LoggerAgent(loggerLocate string, workerRecorder *log.Logger) {
+func LoggerAgent(loggerLocate string, workerRecorder *log.Logger) *log.Logger {
 	var (
 		err error
+		//workerRecorder_return *log.Logger
 	)
-	if len(loggerLocate) == 0 {
+	/* 	if len(loggerLocate) == 0 {
 		loggerLocate = "logs"
-	}
+	} */
 	// 나중에 여기에 경로가 있는지 판별하고 만드는 부분 모듈화 해서 호출 하기
 	// 지금은 테스트 니까 그냥 만들어 두고 쓰자.
 	// 로그파일이 하루 지났으면 이전 파일을 날짜붙여서 백업하고 새로 만들어서
@@ -50,5 +51,5 @@ func LoggerAgent(loggerLocate string, workerRecorder *log.Logger) {
 	workerRecorder = log.New(fpLog, "INFO: ", log.Ldate|log.Ltime|log.Lshortfile)
 	workerRecorder.SetOutput(multiWriter)
 	fmt.Println("test")
-
+	return workerRecorder
 }

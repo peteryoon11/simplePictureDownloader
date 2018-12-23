@@ -12,11 +12,12 @@ import (
 	"time"
 
 	"../pkg/CustomLogger"
+	"../pkg/StructureModule"
 	"github.com/PuerkitoBio/goquery"
 )
 
 //var log *log.Logger //
-var workerRecorder *log.Logger
+//var workerRecorder *log.Logger
 
 //var fpLog *os.File
 
@@ -32,6 +33,7 @@ func initFunc(startWord []string) {
 		filepath       string
 		identify       string
 		loggerLocate   string
+		workerRecorder *log.Logger
 	)
 	startTime := time.Now() // 처음부터 끝까지 걸린 시간을 측정 하기 위한 시작시간 체크
 
@@ -50,46 +52,43 @@ func initFunc(startWord []string) {
 			loggerLocate = strings.Split(item, "=")[1]
 		}
 	}
-	CustomLogger.LoggerAgent(loggerLocate, workerRecorder)
-	ProcessCore(webpageAddress, filepath, identify, loggerLocate, startTime)
+
+	if len(webpageAddress) == 0 {
+		webpageAddress = "https://kissme2145.tistory.com/1418?category=634440"
+		//webpage = "https://comic.naver.com/webtoon/detail.nhn?titleId=675554&no=683"
+		// 나중에 네이버 웹툰 페이지도 추가해 보자.
+	}
+	if len(filepath) == 0 {
+		filepath = "temp"
+	}
+	if len(identify) == 0 {
+		identify = "image"
+	}
+	if len(loggerLocate) == 0 {
+		loggerLocate = "logs"
+	}
+	//var workerRecorder *log.Logger
+	workerRecorder = CustomLogger.LoggerAgent(loggerLocate, workerRecorder)
+	//
+	workerRecorder.Println("Start SimlePicDownloader!!!!!!!!!!!")
+	workerRecorder.Println("from ", webpageAddress)
+	workerRecorder.Println("to ", filepath) // 여기는 절대 경로로 보여주는걸로 바꿔주자.
+	workerRecorder.Println("filename base is  ", identify)
+	workerRecorder.Println("logfile will locate  ", loggerLocate)
+
+	//StructureModule.ProcessCoreMandantory
+	//processCoreObject := new(StructureModule.ProcessCoreMandantory)
+	//	processCoreObject := StructureModule.ProcessCoreMandantory{}
+	//processCoreObject := make([]StructureModule.ProcessCoreMandantory, 1)
+	//processCoreObject[0].webpageAddress = webpageAddress
+	//fmt.Println(processCoreObject[0])
+	//fmt.Println(processCoreObject)
+	//fmt.Println(processCoreObject.webpageAddress)
+	//processCoreObject[0]
+
+	processCoreObject := StructureModule.ProcessCoreMandantory{webpageAddress, filepath, identify, loggerLocate, startTime, workerRecorder}
+	ProcessCore(webpageAddress, filepath, identify, loggerLocate, startTime, workerRecorder)
 	CustomLogger.LoggerEnd(workerRecorder)
-
-}
-func tttt() {
-	// Make HTTP request
-	//response, err := http.Get("https://www.devdungeon.com")
-	//fmt.Println(os.Args[1:])
-	var (
-		webpageAddress string
-		filepath       string
-		identify       string
-		loggerLocate   string
-	)
-	startTime := time.Now() // 처음부터 끝까지 걸린 시간을 측정 하기 위한 시작시간 체크
-
-	for _, item := range os.Args[1:] {
-		//fmt.Println(item)
-		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "site") {
-			webpageAddress = strings.Split(item, "=")[1]
-		}
-		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "path") {
-			filepath = strings.Split(item, "=")[1]
-		}
-		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "identi") {
-			identify = strings.Split(item, "=")[1]
-		}
-		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "logger") {
-			// logger 파일의 위치
-			loggerLocate = strings.Split(item, "=")[1]
-		}
-	}
-	//fmt.Println("web page!!", webpageAddress)
-	//fmt.Println("path!!", filepath)
-	// 필요한 부분은 웹페이지 하나 일단
-	//	ProcessCore()
-	//LoggerAgent(loggerLocate)
-	ProcessCore(webpageAddress, filepath, identify, loggerLocate, startTime)
-	//LoggerEnd()
 
 }
 
@@ -125,19 +124,21 @@ func LoggerAgent(loggerLocate string) {
 	fmt.Println("test")
 
 } */
-func ProcessCore(webpage string, filepath string, identify string, loggerLocate string, startTime time.Time) {
+func ProcessCore(webpage string, filepath string, identify string, loggerLocate string, startTime time.Time, workerRecorder *log.Logger) {
 
-	if len(webpage) == 0 {
-		webpage = "https://kissme2145.tistory.com/1418?category=634440"
-		//webpage = "https://comic.naver.com/webtoon/detail.nhn?titleId=675554&no=683"
-		// 나중에 네이버 웹툰 페이지도 추가해 보자.
-	}
-	if len(filepath) == 0 {
-		filepath = "temp"
-	}
-	if len(identify) == 0 {
-		identify = "image"
-	}
+	// 초기화는 initfunc 에서 하자.
+	/* 	if len(webpage) == 0 {
+	   		webpage = "https://kissme2145.tistory.com/1418?category=634440"
+	   		//webpage = "https://comic.naver.com/webtoon/detail.nhn?titleId=675554&no=683"
+	   		// 나중에 네이버 웹툰 페이지도 추가해 보자.
+	   	}
+	   	if len(filepath) == 0 {
+	   		filepath = "temp"
+	   	}
+	   	if len(identify) == 0 {
+	   		identify = "image"
+	   	} */
+
 	response, err := http.NewRequest("GET", webpage, nil)
 	if err != nil {
 		//panic(err)
@@ -145,12 +146,12 @@ func ProcessCore(webpage string, filepath string, identify string, loggerLocate 
 		workerRecorder.Println(err)
 	}
 
-	workerRecorder.Println("Start SimlePicDownloader!!!!!!!!!!!")
+	/* workerRecorder.Println("Start SimlePicDownloader!!!!!!!!!!!")
 	workerRecorder.Println("from ", webpage)
 	workerRecorder.Println("to ", filepath) // 여기는 절대 경로로 보여주는걸로 바꿔주자.
 	workerRecorder.Println("filename base is  ", identify)
 	workerRecorder.Println("logfile will locate  ", loggerLocate)
-
+	*/
 	// 로그 파일 위치를 보여주자.
 
 	//필요시 헤더 추가 가능
@@ -189,7 +190,7 @@ func ProcessCore(webpage string, filepath string, identify string, loggerLocate 
 			//i++
 			//DownloadFile("./temp/"+tempInt+".jpg", imgSrc)
 			//_, i = DownloadFile("./"+filepath+"/"+tempInt+".jpg", imgSrc, i)
-			_, i = DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i)
+			_, i = DownloadFile("./"+filepath+"/"+tempFilename, imgSrc, i, workerRecorder)
 		}
 	})
 	diff := startTime.Sub(time.Now())
@@ -214,7 +215,7 @@ func DisplayNumberSort(givennumber int) string {
 	return result
 
 }
-func DownloadFile(filepath string, url string, count int) (error, int) {
+func DownloadFile(filepath string, url string, count int, workerRecorder *log.Logger) (error, int) {
 
 	//strings.Split(filepath, "/")[0]
 
