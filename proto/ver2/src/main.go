@@ -25,6 +25,7 @@ func initFunc(startWord []string) {
 		identify       string
 		loggerLocate   string
 		workerRecorder *log.Logger
+		fpLog          *os.File
 	)
 	startTime := time.Now() // 처음부터 끝까지 걸린 시간을 측정 하기 위한 시작시간 체크
 
@@ -59,27 +60,16 @@ func initFunc(startWord []string) {
 		loggerLocate = "logs"
 	}
 
-	workerRecorder = CustomLogger.LoggerAgent(loggerLocate, workerRecorder)
+	workerRecorder, fpLog = CustomLogger.LoggerAgent(loggerLocate, workerRecorder)
 
 	workerRecorder.Println("Start SimlePicDownloader!!!!!!!!!!!")
 	workerRecorder.Println("from ", webpageAddress)
 	workerRecorder.Println("to ", filepath) // 여기는 절대 경로로 보여주는걸로 바꿔주자.
 	workerRecorder.Println("filename base is  ", identify)
 	workerRecorder.Println("logfile will locate  ", loggerLocate)
-
-	//StructureModule.ProcessCoreMandantory
-	//processCoreObject := new(StructureModule.ProcessCoreMandantory)
-	//	processCoreObject := StructureModule.ProcessCoreMandantory{}
-	//processCoreObject := make([]StructureModule.ProcessCoreMandantory, 1)
-	//processCoreObject[0].webpageAddress = webpageAddress
-	//fmt.Println(processCoreObject[0])
-	//fmt.Println(processCoreObject)
-	//fmt.Println(processCoreObject.webpageAddress)
-	//processCoreObject[0]
-
-	//processCoreObject := StructureModule.ProcessCoreMandantory{webpageAddress, filepath, identify, loggerLocate, startTime, workerRecorder}
 	ProcessCore(webpageAddress, filepath, identify, loggerLocate, startTime, workerRecorder)
-	CustomLogger.LoggerEnd(workerRecorder)
+	//CustomLogger.LoggerEnd(workerRecorder, fpLog)
+	CustomLogger.LoggerEnd(fpLog)
 
 }
 
