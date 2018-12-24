@@ -68,7 +68,7 @@ func initFunc(startWord []string) {
 	workerRecorder.Println("filename base is  ", identify)
 	workerRecorder.Println("logfile will locate  ", loggerLocate)
 	ProcessCore(webpageAddress, filepath, identify, loggerLocate, startTime, workerRecorder)
-	//CustomLogger.LoggerEnd(workerRecorder, fpLog)
+
 	CustomLogger.LoggerEnd(fpLog)
 
 }
