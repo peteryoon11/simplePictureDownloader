@@ -5,6 +5,8 @@ import (
 	"io"
 	"log"
 	"os"
+
+	"../FileControll"
 )
 
 //var fpLog *os.File
@@ -17,12 +19,19 @@ func LoggerAgent(loggerLocate string, workerRecorder *log.Logger) (*log.Logger, 
 	var (
 		err error
 	)
-
-	fpLog, err := os.OpenFile("./"+loggerLocate+"/logfile.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	loggerLocateWithFile := "./" + loggerLocate + "/logfile.log"
+	fpLog, err := os.OpenFile(loggerLocateWithFile, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		//panic(err)
-		fmt.Println(err)
+		//fmt.Println(err)
 		log.Println(err)
+		workerRecorder = log.New(fpLog, "Error: ", log.Ldate|log.Ltime|log.Lshortfile)
+		FileControll.CheckOSAndMakeFile(loggerLocateWithFile, workerRecorder)
+		// 로거가 생성 되기 전에 폴더가 없으면 폴더를 생성하고 나서 다시 한번 파일을 열어서 로그 저장을 함
+		fpLog, err = os.OpenFile(loggerLocateWithFile, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+		if err != nil {
+			workerRecorder.Panicln(err)
+		}
 	}
 
 	multiWriter := io.MultiWriter(fpLog, os.Stdout)

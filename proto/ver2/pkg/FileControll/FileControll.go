@@ -11,9 +11,6 @@ import (
 	"strings"
 )
 
-func FuncTest() {
-
-}
 func DisplayNumberSort(givennumber int) string {
 	// 000 자리로 나오게 설정
 	// ex) 001 002 ~~ 010 011 ~~ 100 101 ~~ 201 202
@@ -63,6 +60,7 @@ func CheckOSAndMakeFile(filepath string, workerRecorder *log.Logger) {
 
 		}
 	}
+
 }
 func DownloadFile(filepath string, url string, count int, workerRecorder *log.Logger) (error, int) {
 
