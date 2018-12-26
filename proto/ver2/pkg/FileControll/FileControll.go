@@ -71,7 +71,6 @@ func DownloadFile(filepath string, url string, count int, workerRecorder *log.Lo
 		쓰면 코드 재 사용 성이나 나중에 수정 할때나 편리 할듯
 	*/
 
-	//filepathOnlyPath, _ := path.Split(filepath)
 	if count == 0 {
 		CheckOSAndMakeFile(filepath, workerRecorder)
 
