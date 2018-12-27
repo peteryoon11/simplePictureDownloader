@@ -19,7 +19,9 @@ func LoggerAgent(loggerLocate string, workerRecorder *log.Logger) (*log.Logger, 
 	var (
 		err error
 	)
-	loggerLocateWithFile := "./" + loggerLocate + "/logfile.log"
+	loggerLocateWithFile := "../" + loggerLocate + "/logfile.log"
+	// logger 의 위치 에 대한 테스트 중
+	// ./ ../
 	fpLog, err := os.OpenFile(loggerLocateWithFile, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		//panic(err)
