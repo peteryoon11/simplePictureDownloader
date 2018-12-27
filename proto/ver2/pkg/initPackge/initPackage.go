@@ -1,5 +1,0 @@
-package initPackge
-
-func InitP() {
-
-}
