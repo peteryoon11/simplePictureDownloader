@@ -1,0 +1,5 @@
+package initPackge
+
+func InitP() {
+
+}

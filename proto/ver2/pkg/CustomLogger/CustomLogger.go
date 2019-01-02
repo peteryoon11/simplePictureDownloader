@@ -21,7 +21,7 @@ func LoggerAgent(loggerLocate string, workerRecorder *log.Logger) (*log.Logger, 
 	)
 	loggerLocateWithFile := "../" + loggerLocate + "/logfile.log"
 	// logger 의 위치 에 대한 테스트 중
-	// ./ ../ 
+	// ./ ../
 	fpLog, err := os.OpenFile(loggerLocateWithFile, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		//panic(err)
@@ -34,6 +34,7 @@ func LoggerAgent(loggerLocate string, workerRecorder *log.Logger) (*log.Logger, 
 		if err != nil {
 			workerRecorder.Panicln(err)
 		}
+
 	}
 
 	multiWriter := io.MultiWriter(fpLog, os.Stdout)
