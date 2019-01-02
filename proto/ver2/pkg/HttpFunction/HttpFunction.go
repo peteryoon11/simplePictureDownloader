@@ -1,5 +1,0 @@
-package HttpFunction
-
-func TestFunc() {
-
-}
