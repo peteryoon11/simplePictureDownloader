@@ -41,6 +41,9 @@ func initFunc(startWord []string) {
 		}
 		if temp := strings.Split(item, "=")[0]; strings.EqualFold(temp, "logger") {
 			// logger 파일의 위치
+			// 기본은 현재 실행 파일과 같은 경로  ./
+			// 다른 옵션을 주면 src 위에 logs 로 가게 하기 위해서 ../ 를 하게 하는 방법?
+			// 현재는 ../ 로 되어 있음 테스트 하기 위해서 그런데 이게 윈도우에서 똑같이 동작할까?
 			loggerLocate = strings.Split(item, "=")[1]
 		}
 	}
