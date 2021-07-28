@@ -1,0 +1,607 @@
+INFO: 2019/03/25 22:02:32 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/03/25 22:02:32 main.go:70: from  https://kissme2145.tistory.com/1418?category=634440
+INFO: 2019/03/25 22:02:32 main.go:71: to  temp
+INFO: 2019/03/25 22:02:32 main.go:72: filename base is   image
+INFO: 2019/03/25 22:02:32 main.go:73: logfile will locate   logs
+INFO: 2019/03/25 22:02:33 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/03/25 22:02:33 FileControll.go:44: filepath is exist
+INFO: 2019/03/25 22:02:33 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/new_icon_7.png
+INFO: 2019/03/25 22:02:33 FileControll.go:123: filesize =  1  kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:02:33 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:02:33 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:02:33 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:02:33 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:02:33 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:02:33 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:33 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:02:33 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:02:45 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99CA04365BEA93BE2B: unsupported protocol scheme ""
+INFO: 2019/03/25 22:02:45 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99262A355BE986AF30: unsupported protocol scheme ""
+INFO: 2019/03/25 22:02:45 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/999540435BE7D32A14: unsupported protocol scheme ""
+INFO: 2019/03/25 22:02:45 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99B217415BE7CDFD0E: unsupported protocol scheme ""
+INFO: 2019/03/25 22:02:45 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:45 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/facebook2.png
+INFO: 2019/03/25 22:02:45 FileControll.go:123: filesize =  9  kbytes
+INFO: 2019/03/25 22:02:45 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:45 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/twitter2.png
+INFO: 2019/03/25 22:02:45 FileControll.go:123: filesize =  19  kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/googleplus.png
+INFO: 2019/03/25 22:02:46 FileControll.go:123: filesize =  10  kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/naverband2.png
+INFO: 2019/03/25 22:02:46 FileControll.go:123: filesize =  6  kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/kakaostory2.png
+INFO: 2019/03/25 22:02:46 FileControll.go:123: filesize =  7  kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/naverblog2.png
+INFO: 2019/03/25 22:02:46 FileControll.go:123: filesize =  5  kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:02:46 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/top.png
+INFO: 2019/03/25 22:02:46 FileControll.go:123: filesize =  3  kbytes
+INFO: 2019/03/25 22:02:46 main.go:116: total spend time is  13.89451375s
+INFO: 2019/03/25 22:02:46 main.go:117: total download image is  22
+INFO: 2019/03/25 22:03:18 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/03/25 22:03:18 main.go:70: from  https://kissme2145.tistory.com/1418?category=634440
+INFO: 2019/03/25 22:03:18 main.go:71: to  temp2
+INFO: 2019/03/25 22:03:18 main.go:72: filename base is   image
+INFO: 2019/03/25 22:03:18 main.go:73: logfile will locate   logs
+INFO: 2019/03/25 22:03:19 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/03/25 22:03:19 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/new_icon_7.png
+INFO: 2019/03/25 22:03:19 FileControll.go:123: filesize =  1  kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:03:19 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:03:19 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:03:19 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:03:19 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:03:19 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:03:19 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:19 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:03:19 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99CA04365BEA93BE2B: unsupported protocol scheme ""
+INFO: 2019/03/25 22:03:25 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99262A355BE986AF30: unsupported protocol scheme ""
+INFO: 2019/03/25 22:03:25 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/999540435BE7D32A14: unsupported protocol scheme ""
+INFO: 2019/03/25 22:03:25 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99B217415BE7CDFD0E: unsupported protocol scheme ""
+INFO: 2019/03/25 22:03:25 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/facebook2.png
+INFO: 2019/03/25 22:03:25 FileControll.go:123: filesize =  9  kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/twitter2.png
+INFO: 2019/03/25 22:03:25 FileControll.go:123: filesize =  19  kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/googleplus.png
+INFO: 2019/03/25 22:03:25 FileControll.go:123: filesize =  10  kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/naverband2.png
+INFO: 2019/03/25 22:03:25 FileControll.go:123: filesize =  6  kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:25 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/kakaostory2.png
+INFO: 2019/03/25 22:03:25 FileControll.go:123: filesize =  7  kbytes
+INFO: 2019/03/25 22:03:26 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:26 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/naverblog2.png
+INFO: 2019/03/25 22:03:26 FileControll.go:123: filesize =  5  kbytes
+INFO: 2019/03/25 22:03:26 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:03:26 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/top.png
+INFO: 2019/03/25 22:03:26 FileControll.go:123: filesize =  3  kbytes
+INFO: 2019/03/25 22:03:26 main.go:116: total spend time is  7.663968323s
+INFO: 2019/03/25 22:03:26 main.go:117: total download image is  22
+INFO: 2019/03/25 22:03:59 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/03/25 22:03:59 main.go:70: from  https://kissme2145.tistory.com/1418?category
+INFO: 2019/03/25 22:03:59 main.go:71: to  temp2
+INFO: 2019/03/25 22:03:59 main.go:72: filename base is   image
+INFO: 2019/03/25 22:03:59 main.go:73: logfile will locate   logs
+INFO: 2019/03/25 22:03:59 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/03/25 22:03:59 FileControll.go:44: filepath is exist
+INFO: 2019/03/25 22:04:00 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/new_icon_7.png
+INFO: 2019/03/25 22:04:00 FileControll.go:123: filesize =  1  kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:04:00 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:04:00 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:04:00 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:04:00 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:04:00 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:04:00 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:00 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:04:00 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99CA04365BEA93BE2B: unsupported protocol scheme ""
+INFO: 2019/03/25 22:04:11 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99262A355BE986AF30: unsupported protocol scheme ""
+INFO: 2019/03/25 22:04:11 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/999540435BE7D32A14: unsupported protocol scheme ""
+INFO: 2019/03/25 22:04:11 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99B217415BE7CDFD0E: unsupported protocol scheme ""
+INFO: 2019/03/25 22:04:11 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/facebook2.png
+INFO: 2019/03/25 22:04:11 FileControll.go:123: filesize =  9  kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/twitter2.png
+INFO: 2019/03/25 22:04:11 FileControll.go:123: filesize =  19  kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/googleplus.png
+INFO: 2019/03/25 22:04:11 FileControll.go:123: filesize =  10  kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/naverband2.png
+INFO: 2019/03/25 22:04:11 FileControll.go:123: filesize =  6  kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/kakaostory2.png
+INFO: 2019/03/25 22:04:11 FileControll.go:123: filesize =  7  kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:11 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/naverblog2.png
+INFO: 2019/03/25 22:04:11 FileControll.go:123: filesize =  5  kbytes
+INFO: 2019/03/25 22:04:12 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:04:12 FileControll.go:121: url =  https://tistory3.daumcdn.net/tistory/763009/skin/images/top.png
+INFO: 2019/03/25 22:04:12 FileControll.go:123: filesize =  3  kbytes
+INFO: 2019/03/25 22:04:12 main.go:116: total spend time is  12.842200112s
+INFO: 2019/03/25 22:04:12 main.go:117: total download image is  22
+INFO: 2019/03/25 22:08:54 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/03/25 22:08:54 main.go:70: from  https://theqoo.net/miyawakisakura/797990123
+INFO: 2019/03/25 22:08:54 main.go:71: to  temp2
+INFO: 2019/03/25 22:08:54 main.go:72: filename base is   image
+INFO: 2019/03/25 22:08:54 main.go:73: logfile will locate   logs
+INFO: 2019/03/25 22:08:55 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/03/25 22:08:55 FileControll.go:44: filepath is exist
+INFO: 2019/03/25 22:08:55 FileControll.go:82: Get //cdn.theqoo.net/files/attach/images/24780/9b8a63ca56d4d27718caef1f6a34702d.png: unsupported protocol scheme ""
+INFO: 2019/03/25 22:08:55 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/03/25 22:08:55 FileControll.go:44: filepath is exist
+INFO: 2019/03/25 22:14:16 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/03/25 22:14:16 main.go:70: from  https://kissme2145.tistory.com/1411
+INFO: 2019/03/25 22:14:16 main.go:71: to  temp3
+INFO: 2019/03/25 22:14:16 main.go:72: filename base is   image
+INFO: 2019/03/25 22:14:16 main.go:73: logfile will locate   logs
+INFO: 2019/03/25 22:14:17 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/03/25 22:14:17 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:121: url =  https://tistory1.daumcdn.net/tistory/763009/skin/images/new_icon_7.png
+INFO: 2019/03/25 22:14:17 FileControll.go:123: filesize =  1  kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:14:17 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:14:17 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:14:17 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:14:17 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:14:17 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:17 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:14:17 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:14:18 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:18 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/af1a1aa2d5742afd280260eafaf7c29bac6cc6cf/blogs/image/category/new_ico_1.gif?_version_=af1a1aa2d5742afd280260eafaf7c29bac6cc6cf
+INFO: 2019/03/25 22:14:18 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/03/25 22:14:26 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/9927354B5C4A993822: unsupported protocol scheme ""
+INFO: 2019/03/25 22:14:26 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/999CD54A5BF3895328: unsupported protocol scheme ""
+INFO: 2019/03/25 22:14:26 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/999157345BE2620F22: unsupported protocol scheme ""
+INFO: 2019/03/25 22:14:26 FileControll.go:82: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/991AFC3B5BE10DFF28: unsupported protocol scheme ""
+INFO: 2019/03/25 22:14:26 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:26 FileControll.go:121: url =  https://tistory1.daumcdn.net/tistory/763009/skin/images/facebook2.png
+INFO: 2019/03/25 22:14:26 FileControll.go:123: filesize =  9  kbytes
+INFO: 2019/03/25 22:14:26 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:26 FileControll.go:121: url =  https://tistory1.daumcdn.net/tistory/763009/skin/images/twitter2.png
+INFO: 2019/03/25 22:14:26 FileControll.go:123: filesize =  19  kbytes
+INFO: 2019/03/25 22:14:26 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:26 FileControll.go:121: url =  https://tistory1.daumcdn.net/tistory/763009/skin/images/googleplus.png
+INFO: 2019/03/25 22:14:26 FileControll.go:123: filesize =  10  kbytes
+INFO: 2019/03/25 22:14:26 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:26 FileControll.go:121: url =  https://tistory1.daumcdn.net/tistory/763009/skin/images/naverband2.png
+INFO: 2019/03/25 22:14:26 FileControll.go:123: filesize =  6  kbytes
+INFO: 2019/03/25 22:14:27 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:27 FileControll.go:121: url =  https://tistory1.daumcdn.net/tistory/763009/skin/images/kakaostory2.png
+INFO: 2019/03/25 22:14:27 FileControll.go:123: filesize =  7  kbytes
+INFO: 2019/03/25 22:14:27 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:27 FileControll.go:121: url =  https://tistory1.daumcdn.net/tistory/763009/skin/images/naverblog2.png
+INFO: 2019/03/25 22:14:27 FileControll.go:123: filesize =  5  kbytes
+INFO: 2019/03/25 22:14:27 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/03/25 22:14:27 FileControll.go:121: url =  https://tistory1.daumcdn.net/tistory/763009/skin/images/top.png
+INFO: 2019/03/25 22:14:27 FileControll.go:123: filesize =  3  kbytes
+INFO: 2019/03/25 22:14:27 main.go:116: total spend time is  10.825300909s
+INFO: 2019/03/25 22:14:27 main.go:117: total download image is  34
+INFO: 2019/03/25 22:15:55 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/03/25 22:15:55 main.go:70: from  http://inmnews.com/blog/archives/tag/izone%EC%95%84%EC%9D%B4%EC%A6%88%EC%9B%90-%EB%AF%B8%EC%95%BC%EC%99%80%ED%82%A4-%EC%82%AC%EC%BF%A0%EB%9D%BC-%EC%82%AC%EC%A7%84
+INFO: 2019/03/25 22:15:55 main.go:71: to  temp4
+INFO: 2019/03/25 22:15:55 main.go:72: filename base is   image
+INFO: 2019/03/25 22:15:55 main.go:73: logfile will locate   logs
+INFO: 2019/03/25 22:15:56 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/08/05 22:05:50 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/08/05 22:05:50 main.go:70: from  https://kissme2145.tistory.com/1418?category=634440
+INFO: 2019/08/05 22:05:50 main.go:71: to  temp
+INFO: 2019/08/05 22:05:50 main.go:72: filename base is   image
+INFO: 2019/08/05 22:05:50 main.go:73: logfile will locate   logs
+INFO: 2019/08/05 22:05:51 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/08/05 22:05:51 FileControll.go:44: filepath is exist
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://tistory4.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CA04365BEA93BE2B: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99262A355BE986AF30: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999540435BE7D32A14: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99B217415BE7CDFD0E: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://tistory4.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://tistory4.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://tistory4.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get : unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C0FB505D25E8F316: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99EB11425D29E9680E: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E77C375D1F4E4E08: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9986EC4D5D3C686930: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CFA7395D27374914: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99915A495D18AEF729: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996FB6445D3340742B: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C6EA3F5D249A2425: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988BB4D5D21D8C325: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99407C3A5D35BF3E08: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/994192425D31B15C26: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99FA094F5D3DBE4324: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E5B23A5D41957701: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9962064D5D1A23190C: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999CD1335D370D6321: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9957B43A5D45A69224: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99273B415D197DAF03: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9915EE445D42D35010: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/997BDA375D2F112919: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99EBFA4F5D3068240F: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9934BD485D443AF208: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CFD74A5D1B710330: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get : unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/01eeabf466e7c9fcc911be73c6410314e4a3584a/blogs/image/category/new_ico_1.gif?_version_=01eeabf466e7c9fcc911be73c6410314e4a3584a
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/01eeabf466e7c9fcc911be73c6410314e4a3584a/blogs/image/category/new_ico_1.gif?_version_=01eeabf466e7c9fcc911be73c6410314e4a3584a
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/01eeabf466e7c9fcc911be73c6410314e4a3584a/blogs/image/category/new_ico_1.gif?_version_=01eeabf466e7c9fcc911be73c6410314e4a3584a
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/01eeabf466e7c9fcc911be73c6410314e4a3584a/blogs/image/category/new_ico_1.gif?_version_=01eeabf466e7c9fcc911be73c6410314e4a3584a
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/01eeabf466e7c9fcc911be73c6410314e4a3584a/blogs/image/category/new_ico_1.gif?_version_=01eeabf466e7c9fcc911be73c6410314e4a3584a
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/01eeabf466e7c9fcc911be73c6410314e4a3584a/blogs/image/category/new_ico_1.gif?_version_=01eeabf466e7c9fcc911be73c6410314e4a3584a
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/01eeabf466e7c9fcc911be73c6410314e4a3584a/blogs/image/category/new_ico_1.gif?_version_=01eeabf466e7c9fcc911be73c6410314e4a3584a
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/01eeabf466e7c9fcc911be73c6410314e4a3584a/blogs/image/category/new_ico_1.gif?_version_=01eeabf466e7c9fcc911be73c6410314e4a3584a
+INFO: 2019/08/05 22:05:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9989984F5D47EC582B: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9957B43A5D45A69224: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9934BD485D443AF208: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99D7D0495D44100F10: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9915EE445D42D35010: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E8CC3E5D42C96913: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E5B23A5D41957701: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/993774415D4044F327: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988143D5D3EF26B11: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99FA094F5D3DBE4324: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9986EC4D5D3C686930: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9901D3395D3AED5705: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9922C4475D399EF12A: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/992EEE4D5D385E4836: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999CD1335D370D6321: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99407C3A5D35BF3E08: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C76F335D3473A730: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996FB6445D3340742B: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9955D3355D32F80A14: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/994192425D31B15C26: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99EBFA4F5D3068240F: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/997BDA375D2F112919: unsupported protocol scheme ""
+INFO: 2019/08/05 22:05:53 main.go:116: total spend time is  2.40756546s
+INFO: 2019/08/05 22:05:53 main.go:117: total download image is  21
+INFO: 2019/08/11 20:32:53 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/08/11 20:32:53 main.go:70: from  https://kissme2145.tistory.com/1418?category=634440
+INFO: 2019/08/11 20:32:53 main.go:71: to  temp
+INFO: 2019/08/11 20:32:53 main.go:72: filename base is   image
+INFO: 2019/08/11 20:32:53 main.go:73: logfile will locate   logs
+INFO: 2019/08/11 20:32:54 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/08/11 20:32:54 FileControll.go:44: filepath is exist
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CA04365BEA93BE2B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99262A355BE986AF30: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999540435BE7D32A14: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99B217415BE7CDFD0E: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get : unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C0FB505D25E8F316: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9986EC4D5D3C686930: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CFA7395D27374914: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99EB11425D29E9680E: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E77C375D1F4E4E08: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9957B43A5D45A69224: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99FA094F5D3DBE4324: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996FB6445D3340742B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E5B23A5D41957701: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C6EA3F5D249A2425: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9915EE445D42D35010: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99407C3A5D35BF3E08: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999CD1335D370D6321: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988BB4D5D21D8C325: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/994192425D31B15C26: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9934BD485D443AF208: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/993774415D4044F327: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99EBFA4F5D3068240F: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988143D5D3EF26B11: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/997BDA375D2F112919: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CFD74A5D1B710330: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99BB71445D20BDC608: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get : unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:33:15 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CC9A4C5D4AD1DD05: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996F79425D4AC6EC33: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9948374E5D4960D90D: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9989984F5D47EC582B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9957B43A5D45A69224: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9934BD485D443AF208: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99D7D0495D44100F10: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9915EE445D42D35010: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E8CC3E5D42C96913: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E5B23A5D41957701: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/993774415D4044F327: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988143D5D3EF26B11: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99FA094F5D3DBE4324: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9986EC4D5D3C686930: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9901D3395D3AED5705: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9922C4475D399EF12A: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/992EEE4D5D385E4836: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999CD1335D370D6321: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99407C3A5D35BF3E08: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C76F335D3473A730: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996FB6445D3340742B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9955D3355D32F80A14: unsupported protocol scheme ""
+INFO: 2019/08/11 20:33:15 main.go:116: total spend time is  22.355464174s
+INFO: 2019/08/11 20:33:15 main.go:117: total download image is  21
+INFO: 2019/08/11 20:34:22 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/08/11 20:34:22 main.go:70: from  https://kissme2145.tistory.com/1418?category=634440
+INFO: 2019/08/11 20:34:22 main.go:71: to  test1
+INFO: 2019/08/11 20:34:22 main.go:72: filename base is   image
+INFO: 2019/08/11 20:34:22 main.go:73: logfile will locate   logs
+INFO: 2019/08/11 20:34:22 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CA04365BEA93BE2B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99262A355BE986AF30: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999540435BE7D32A14: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99B217415BE7CDFD0E: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get : unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C0FB505D25E8F316: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9986EC4D5D3C686930: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CFA7395D27374914: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99EB11425D29E9680E: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E77C375D1F4E4E08: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9957B43A5D45A69224: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99FA094F5D3DBE4324: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996FB6445D3340742B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E5B23A5D41957701: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C6EA3F5D249A2425: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9915EE445D42D35010: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99407C3A5D35BF3E08: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999CD1335D370D6321: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988BB4D5D21D8C325: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/994192425D31B15C26: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9934BD485D443AF208: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/993774415D4044F327: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99EBFA4F5D3068240F: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988143D5D3EF26B11: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/997BDA375D2F112919: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CFD74A5D1B710330: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99BB71445D20BDC608: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get : unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:34:28 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CC9A4C5D4AD1DD05: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996F79425D4AC6EC33: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9948374E5D4960D90D: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9989984F5D47EC582B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9957B43A5D45A69224: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9934BD485D443AF208: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99D7D0495D44100F10: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9915EE445D42D35010: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E8CC3E5D42C96913: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E5B23A5D41957701: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/993774415D4044F327: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988143D5D3EF26B11: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99FA094F5D3DBE4324: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9986EC4D5D3C686930: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9901D3395D3AED5705: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9922C4475D399EF12A: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/992EEE4D5D385E4836: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999CD1335D370D6321: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99407C3A5D35BF3E08: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C76F335D3473A730: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996FB6445D3340742B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9955D3355D32F80A14: unsupported protocol scheme ""
+INFO: 2019/08/11 20:34:28 main.go:116: total spend time is  6.627195796s
+INFO: 2019/08/11 20:34:28 main.go:117: total download image is  21
+INFO: 2019/08/11 20:35:46 main.go:69: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2019/08/11 20:35:46 main.go:70: from  https://kissme2145.tistory.com/1644?category
+INFO: 2019/08/11 20:35:46 main.go:71: to  test1
+INFO: 2019/08/11 20:35:46 main.go:72: filename base is   image
+INFO: 2019/08/11 20:35:46 main.go:73: logfile will locate   logs
+INFO: 2019/08/11 20:35:46 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2019/08/11 20:35:46 FileControll.go:44: filepath is exist
+INFO: 2019/08/11 20:36:49 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:49 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:36:49 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:49 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9989984F5D47EC582B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:49 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9934BD485D443AF208: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:49 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/994192425D31B15C26: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:49 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/997BDA375D2F112919: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:51 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:51 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:36:51 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:51 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:51 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:36:51 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:51 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:51 FileControll.go:121: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/heart.svg
+INFO: 2019/08/11 20:36:51 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get : unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C0FB505D25E8F316: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9986EC4D5D3C686930: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CFA7395D27374914: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99EB11425D29E9680E: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E77C375D1F4E4E08: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9957B43A5D45A69224: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99FA094F5D3DBE4324: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996FB6445D3340742B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E5B23A5D41957701: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C6EA3F5D249A2425: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9915EE445D42D35010: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99407C3A5D35BF3E08: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999CD1335D370D6321: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988BB4D5D21D8C325: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/994192425D31B15C26: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9934BD485D443AF208: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/993774415D4044F327: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99EBFA4F5D3068240F: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988143D5D3EF26B11: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/997BDA375D2F112919: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CFD74A5D1B710330: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99BB71445D20BDC608: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:82: Get : unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:36:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:36:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:36:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:36:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:53 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:36:53 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:54 FileControll.go:118: 25000 bytes 미만 / 24kbytes
+INFO: 2019/08/11 20:36:54 FileControll.go:121: url =  https://t1.daumcdn.net/tistory_admin/assets/blog/0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f/blogs/image/category/new_ico_1.gif?_version_=0ccc8ebc82d8ddff2b5d35df8bbed2d6312aba8f
+INFO: 2019/08/11 20:36:54 FileControll.go:123: filesize =  0  kbytes
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99CC9A4C5D4AD1DD05: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996F79425D4AC6EC33: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9948374E5D4960D90D: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9989984F5D47EC582B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9957B43A5D45A69224: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9934BD485D443AF208: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99D7D0495D44100F10: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9915EE445D42D35010: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E8CC3E5D42C96913: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99E5B23A5D41957701: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/993774415D4044F327: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9988143D5D3EF26B11: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99FA094F5D3DBE4324: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9986EC4D5D3C686930: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9901D3395D3AED5705: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9922C4475D399EF12A: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/992EEE4D5D385E4836: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/999CD1335D370D6321: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99407C3A5D35BF3E08: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/99C76F335D3473A730: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/996FB6445D3340742B: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 FileControll.go:82: Get //i1.daumcdn.net/thumb/C400x400/?fname=https://t1.daumcdn.net/cfile/tistory/9955D3355D32F80A14: unsupported protocol scheme ""
+INFO: 2019/08/11 20:36:54 main.go:116: total spend time is  1m7.999252948s
+INFO: 2019/08/11 20:36:54 main.go:117: total download image is  48

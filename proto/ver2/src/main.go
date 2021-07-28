@@ -18,6 +18,7 @@ func main() {
 	initFunc(os.Args[1:])
 
 }
+
 func initFunc(startWord []string) {
 	var (
 		webpageAddress string
@@ -50,6 +51,7 @@ func initFunc(startWord []string) {
 
 	if len(webpageAddress) == 0 {
 		webpageAddress = "https://kissme2145.tistory.com/1418?category=634440"
+		//webpage = "https://comic.naver.com/webtoon/detail.nhn?titleId=675554&no=683"
 		//webpage = "https://comic.naver.com/webtoon/detail.nhn?titleId=675554&no=683"
 		// 나중에 네이버 웹툰 페이지도 추가해 보자.
 	}

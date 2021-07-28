@@ -1,0 +1,43 @@
+INFO: 2018/12/25 16:26:55 main.go:65: Start SimlePicDownloader!!!!!!!!!!!
+INFO: 2018/12/25 16:26:55 main.go:66: from  https://kissme2145.tistory.com/1418?category=634440
+INFO: 2018/12/25 16:26:55 main.go:67: to  temp
+INFO: 2018/12/25 16:26:55 main.go:68: filename base is   image
+INFO: 2018/12/25 16:26:55 main.go:69: logfile will locate   logs
+INFO: 2018/12/25 16:26:55 FileControll.go:35: Unix/Linux or Mac OS type OS detected
+INFO: 2018/12/25 16:26:55 FileControll.go:44: filepath is exist
+INFO: 2018/12/25 16:26:55 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:55 FileControll.go:122: url =  https://t1.daumcdn.net/tistory_admin/blogs/image/category/new_ico_1.gif?_version_=d5dea583762cd42669554e81bc4e6249ad083207
+INFO: 2018/12/25 16:26:55 FileControll.go:124: filesize =  0  kbytes
+INFO: 2018/12/25 16:26:55 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:55 FileControll.go:122: url =  https://t1.daumcdn.net/tistory_admin/blogs/image/category/new_ico_1.gif?_version_=d5dea583762cd42669554e81bc4e6249ad083207
+INFO: 2018/12/25 16:26:55 FileControll.go:124: filesize =  0  kbytes
+INFO: 2018/12/25 16:26:55 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:55 FileControll.go:122: url =  https://t1.daumcdn.net/tistory_admin/blogs/image/category/new_ico_1.gif?_version_=d5dea583762cd42669554e81bc4e6249ad083207
+INFO: 2018/12/25 16:26:55 FileControll.go:124: filesize =  0  kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:83: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99CA04365BEA93BE2B: unsupported protocol scheme ""
+INFO: 2018/12/25 16:26:57 FileControll.go:83: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99262A355BE986AF30: unsupported protocol scheme ""
+INFO: 2018/12/25 16:26:57 FileControll.go:83: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/999540435BE7D32A14: unsupported protocol scheme ""
+INFO: 2018/12/25 16:26:57 FileControll.go:83: Get //i1.daumcdn.net/thumb/C185x200/?fname=https://t1.daumcdn.net/cfile/tistory/99B217415BE7CDFD0E: unsupported protocol scheme ""
+INFO: 2018/12/25 16:26:57 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:122: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/facebook2.png
+INFO: 2018/12/25 16:26:57 FileControll.go:124: filesize =  9  kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:122: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/twitter2.png
+INFO: 2018/12/25 16:26:57 FileControll.go:124: filesize =  19  kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:122: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/googleplus.png
+INFO: 2018/12/25 16:26:57 FileControll.go:124: filesize =  10  kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:122: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/naverband2.png
+INFO: 2018/12/25 16:26:57 FileControll.go:124: filesize =  6  kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:122: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/kakaostory2.png
+INFO: 2018/12/25 16:26:57 FileControll.go:124: filesize =  7  kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:122: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/naverblog2.png
+INFO: 2018/12/25 16:26:57 FileControll.go:124: filesize =  5  kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:119: 25000 bytes 미만 / 24kbytes
+INFO: 2018/12/25 16:26:57 FileControll.go:122: url =  https://tistory2.daumcdn.net/tistory/763009/skin/images/top.png
+INFO: 2018/12/25 16:26:57 FileControll.go:124: filesize =  3  kbytes
+INFO: 2018/12/25 16:26:57 main.go:112: total spend time is  1.865992938s
+INFO: 2018/12/25 16:26:57 main.go:113: total download image is  22
